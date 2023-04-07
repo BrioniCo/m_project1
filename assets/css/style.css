@@ -77,3 +77,10 @@ letter-spacing: 3px;
 .active {
     border-bottom: 1.5px solid #3a3a3a;
 }
+ /* Targeting middle section with hero image */
+
+ #hero-image {
+    height: 700px;
+    width: 100%;
+    background: url(../images/hero-image.jpg);
+ }
