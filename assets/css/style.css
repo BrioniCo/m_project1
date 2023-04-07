@@ -1,3 +1,15 @@
+/* font import link for Raleway and Cabin */
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Raleway:wght@100;300&display=swap');
+
+/* wild-card asterix ensures more accurate formatting, removes defaults */
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
 body {
     background-color:pink;
+    font-family: Raleway, sans serif;
+    font-weight: 400;
 }
