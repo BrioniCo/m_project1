@@ -9,7 +9,21 @@
 }
 
 body {
-    background-color:pink;
     font-family: Raleway, sans serif;
     font-weight: 400;
+    color: grey;
+}
+/* headings and logo */
+
+h1, h2 {
+font-family: Cabin, sans serif;
+text-transform: uppercase;
+letter-spacing: 3px;
+color: #283d26;
+}
+
+#logo {
+float:left;
+font-size:200%;
+
 }
