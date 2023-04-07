@@ -25,5 +25,55 @@ color: #283d26;
 #logo {
 float:left;
 font-size:200%;
+padding-left:30px;
+padding-right: 40px;
+}
 
+#menu {
+font-size:110%;
+letter-spacing: 3px;
+}
+
+#logo, #menu, .social-media li {
+    line-height: 75px;
+
+}
+
+#menu li {
+    float: left;
+    list-style-type: none;
+    margin-right: 31px;
+    padding-left: 50px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;    
+}
+#menu a:hover {
+    border-bottom: 1.5px solid #3a3a3a;
+}
+.social-media {
+    text-align: center;
+}
+
+.social-media li {
+    list-style-type: none;
+    margin-left: 31px;
+    float: right;
+    padding-right: 40px;
+} 
+
+.social-media > li {
+    display: inline;
+}
+
+.social-media i {
+    padding: 3%;
+    margin: 4%;
+    color:#3a3a3a;
+    font-size: 160%;
+}
+.active {
+    border-bottom: 1.5px solid #3a3a3a;
 }
