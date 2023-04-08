@@ -10,8 +10,8 @@
 
 -   #### Returning Visitor Goals
     
-    1.  As a Returning Visitor, I want to find information about coding challenges.
-    2.  As a Returning Visitor, I want to find the best way to get in contact with the organisation with any questions I may have.
+    1.  As a Returning Visitor, I want to find information about.
+    2.  As a Returning Visitor, I want to find the best way to get in contact with the campaign managers with any questions I may have.
     3.  As a Returning Visitor, I want to find community links.
 
 -   -   #### Frequent User Goals
@@ -25,15 +25,16 @@
 
 -   #### Colour Scheme
     
-    -   The two main colours used are green and grey. 
+    -   The two main colours used are green and grey. Property listing sites frequently use white and blue tones in their sites and so the intention is to stay as close to this as possible. Green tones, like blue, communicates a sense of calm. 
 
 -   #### Typography
     
-    -   The _____ font is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. ___ is a clean font (used frequently in __ so it is both attractive and appropriate.
+    -   The fonts used are Raleway for headings and Cabin for paragraphs. Sans Serif has been set as the fallback font in the event that the other fonts have not been imported onto the site. Raleway is a clean, modern sans-serfif style font that sits somewhere between the seriousness of a newspaper font and the light-heartedness of a font commonly used on property listings sites. Cabin is an appropriate pairing for Raleway and lends variety to the site. 
 
 -   -   #### Imagery
         
-        -   Imagery is important. The large, background hero image is designed to be striking and catch the user's attention. It also communicates the aim of the campaign.
+        -   The images in this site are of the utmost importane as they communicate the issue of vacant and derelict housing most efficiently. The large, background hero image is designed to create impact, communicate the feeling of 'home' in an Irish context and pique the user's interest in the campaign.
+
 
 -   ### Wireframes
     
@@ -207,12 +208,12 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
     
 -   [MDN Web Docs](https://developer.mozilla.org/) : For Pattern Validation code. Code was modified to better fit my needs and to match an Irish phone number layout to ensure correct validation. Tutorial Found [Here](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/tel#Pattern_validation)
     
+-   The search bar on the main page came from this [Page Dart](https://pagedart.com/blog/how-to-add-a-search-bar-in-html/)
 
 ### Content
 
 -   All content was written by the developer.
     
--   Psychological properties of colours text in the README.md was found [here](http://www.colour-affects.co.uk/psychological-properties-of-colours)
     
 
 ### Media
