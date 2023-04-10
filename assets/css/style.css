@@ -88,6 +88,7 @@ letter-spacing: 3px;
  #hero-image-text {
     color:#283d26;
     text-align: center;
+    font-family: Cabin, sans-serif;
  }
 
  /* Search bar styling */
