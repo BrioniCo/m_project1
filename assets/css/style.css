@@ -85,10 +85,21 @@ letter-spacing: 3px;
     background: url('../css/images/hero-image.jpg') no-repeat center center;
  }
 
- #hero-image-text {
-    color:#283d26;
+  #hero-image-text h2 {
+    color: #283d26;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 160%;
+    font-weight: 400;
+  }
+  
+  #hero-image-text h3 {
+    color: #283d26;
     text-align: center;
     font-family: Cabin, sans-serif;
+    letter-spacing: 2px;
+    text-transform: none;
  }
 
  /* Search bar styling */
@@ -101,6 +112,12 @@ letter-spacing: 3px;
     display: flex;
     flex-direction: row;
     align-items: center;
+
+    top: 37%;
+    text-align: center;
+    left:50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
   }
 
   input {
@@ -140,3 +157,21 @@ letter-spacing: 3px;
     left: 10%;
     padding: 30px;
 }
+#hero-image-text {
+
+    font-family: Railway, sans serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+
+    width: 600px;
+    height: 200px;
+
+    padding-top: 40px;
+    padding: left 60px;
+
+    top: 27%;
+    text-align: center;
+    left:50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    }
