@@ -11,7 +11,7 @@
 body {
     font-family: Raleway, sans serif;
     font-weight: 400;
-    color: grey;
+    color: red;
 }
 /* headings and logo */
 
@@ -79,7 +79,7 @@ letter-spacing: 3px;
 }
  /* Targeting middle section with hero image */
 
- .search-bar {
+ .hero-image {
     height: 600px;
     width: 100%;
     background: url('../css/images/hero-image.jpg') no-repeat center center;
@@ -95,8 +95,8 @@ letter-spacing: 3px;
  form {
     background-color: rgba(255, 255, 255, 0.7);
     width: 600px;
-    height: 100px;
-    border-radius: 5px;
+    height: 75px;
+    border-radius: 10px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -115,10 +115,11 @@ letter-spacing: 3px;
   button {
     all: unset;
     cursor: pointer;
-    width: 44px;
-    height: 44px;
+    width: 60px;
+    height: 60px;
   }
   
+  /* Styling for the magnifying glass */
   svg {
     color: grey;
     fill: currentColor;
