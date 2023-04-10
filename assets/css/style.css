@@ -185,6 +185,12 @@ letter-spacing: 3px;
         height: 30px;
         background-color: #FFCC99;
     }
-    #feature-properties {
-        
+    .featured-properties {
+        display: grid;
+        grid-template-columns: 25% 25% 25% 25%;
+        background-color: red;
+    }
+
+    #container-left {
+        background-image: url(../css/images/burkes.jpeg);
     }
