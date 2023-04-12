@@ -183,17 +183,25 @@ img {
     columns: 3;
     box-sizing: border-box; */
 
+    footer {
+      height: 150px;
+
+    }
   
-  #social-media {
+  .social-media {
     text-align: center;
-    list-style-type: none;
 } 
+/* Now target list items and align horizontally - go back and use this method for the home nav bar! */
 
+.social-media > li {
+  display: inline;
+}
+/* NOw the icons need to be targeted and styled */
 
-#social-media i {
-    padding: 3%;
-    margin: 4%;
-    color:#3a3a3a;
+.social-media i {
+    padding: 2%;
+    margin: 2%;
+    color: #283d26;
     font-size: 160%;
 }
 
