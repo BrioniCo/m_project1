@@ -68,7 +68,7 @@ justify-content: space-around;
     /* position: absolute; */
  }
 
-  #hero-image-text h2 {
+  .hero-image-title {
     color: #283d26;
     text-align: center;
     letter-spacing: 2px;
@@ -77,7 +77,7 @@ justify-content: space-around;
     font-weight: 400;
   }
   
-  #hero-image-text h3 {
+  #hero-image-text > h3 {
     color: #283d26;
     text-align: center;
     font-family: Cabin, sans-serif;
