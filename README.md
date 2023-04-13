@@ -210,6 +210,7 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
     
 -   The search bar on the main page came from this [Page Dart](https://pagedart.com/blog/how-to-add-a-search-bar-in-html/)
 
+- A lot of the box elements and styling of the header elements and ____ came from [Mr Web Designer] (https://www.youtube.com/watch?v=khLaYtW5N4s)
 ### Content
 
 -   All content was written by the developer.
