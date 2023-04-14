@@ -53,7 +53,8 @@ SOme more info about it being a microcosm of the rest of Ireland.
 
 <section class="form-section">
     <form class="signup-form" method="POST" action="#">
-       <h2>Record a vacant property<i class="fa-solid fa-eye"></i> </h2>
+       <h2><i class="fa-solid fa-eye"></i> Report a vacant house </h2>
+     
        
        <label for="fname">First Name</label>
        <input id="fname" class="text-input" type="text" name="first_name" required>
@@ -64,15 +65,13 @@ SOme more info about it being a microcosm of the rest of Ireland.
         <label for="email">Email Address</label>
        <input id="email" class="text-input" type="email" name="email_address" required>
        
-       <label for="road">Road</label>
-       <input type="radio" id="road" name="running_preference" value="road" required>
+       <label for="road">Vacant</label>
+       <input type="radio" id="road" name="house_type" value="vacant" required>
        
-          <label for="trail">Trail</label>
-       <input type="radio" id="trail" name="running_preference" value="trail">
+          <label for="trail">Derelict</label>
+       <input type="radio" id="trail" name="house_type" value="derelict">
        
-          <label for="both">Both</label>
-       <input type="radio" id="both" name="running_preference" value="both">
-       <input class="join-button" type="submit" value="Let's Run!">
+       <input class="join-button" type="submit" value="Record">
    </form>
 </section>
 
