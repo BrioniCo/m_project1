@@ -168,22 +168,31 @@ letter-spacing: 3px;
     transform: translate(-50%, -50%);
     }
 
-    #featured-properties div {
+    #whats-this {
+      height: 600px;
+    }
+
+    #explanation {
+        padding-top: 30px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    #whats-this > div {
         width: 100%;
         height: 100%;
     }
 
-    #featured-properties-title {
+    #whats-this-title {
       margin-left: 10px;
-      margin-top: 10px;
       padding: 10px;
     }
 
     /* Resets */
 
-img {
+    img {
     max-width: 100%;
-  }
+    }
 
     footer {
       height: 150px;
@@ -341,6 +350,7 @@ img {
   font-size: 1.5rem;
 }
 
+/* Fixing footer to bottom of page */
 footer {
   position:fixed;
   left:0px;
@@ -350,7 +360,6 @@ footer {
   background:#999;
 }
 
-/* IE 6 */
 html footer {
   position:absolute;
   top:expression((0-(footer.offsetHeight)+(document.documentElement.clientHeight ? document.documentElement.clientHeight : document.body.clientHeight)+(ignoreMe = document.documentElement.scrollTop ? document.documentElement.scrollTop : document.body.scrollTop))+'px');
