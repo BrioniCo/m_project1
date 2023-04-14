@@ -211,6 +211,9 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 -   The search bar on the main page came from this [Page Dart](https://pagedart.com/blog/how-to-add-a-search-bar-in-html/)
 
 - A lot of the box elements and styling of the header elements and ____ came from [Mr Web Designer] (https://www.youtube.com/watch?v=khLaYtW5N4s)
+
+- I used a snippet of code from [StackOverflow](https://stackoverflow.com/questions/15960290/css-footer-not-displaying-at-the-bottom-of-the-page) to fix a problem I was having with the footer disappearing behind the hero-image section on the home page. 
+
 ### Content
 
 -   All content was written by the developer.
