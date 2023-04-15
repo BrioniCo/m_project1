@@ -142,7 +142,7 @@ letter-spacing: 3px;
     font-family: Ubuntu, sans serif;
     font-size: 120%;
     letter-spacing: 2px;
-    text-transform: uppercase;
+    
 
     width: 400px;
     height: 300px;
@@ -161,11 +161,12 @@ letter-spacing: 3px;
 
   .hero-image-text, .hero-image-text h2 {
       color: black;
+
     }
 
   #discover-them {
     text-decoration: none;
-    color: black;
+    color: #283d26;
     }
    
   #discover-them:hover {
@@ -357,13 +358,39 @@ html footer {
   top:expression((0-(footer.offsetHeight)+(document.documentElement.clientHeight ? document.documentElement.clientHeight : document.body.clientHeight)+(ignoreMe = document.documentElement.scrollTop ? document.documentElement.scrollTop : document.body.scrollTop))+'px');
 }
 
-/* About us form section */
+/* About section */
+
+#door-image-outer {
+  height: 600px;
+  width: 100%;
+  overflow:hidden;
+}
+
+#door-image {
+  height: 600px;
+  width: 100%;
+  background: url('/assets/css/images/door.jpg')no-repeat center center;
+  background-size: cover;
+
+  animation-name: door-zoom;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+}
+
+/* Create zoom effect to pull viewer into door */
+@keyframes door-zoom {
+  from {
+    transform: scale(1);
+  }
+  to {
+transform: scale(1.1);
+  }
+}
 
 .form-section {
   /* clear: left; */
   background-color: #fafafa;
   background-size: cover;
-  background-image: url('../css/images/door.jpg') no-repeat center center;
   background-position: center;
   height: 900px;
 }
