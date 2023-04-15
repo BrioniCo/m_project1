@@ -44,7 +44,8 @@
         <h2>Cape Clear is a microcosm</h2>
         <h3>of the housing crisis at large</h3>
         <br>
-        <p>This island community is dying because there are no homes to rent or to buy. This is despite the island being full of empty houses.</p>
+        
+        <p>This island community is dying because there are <bold>no homes</bold> to rent or to buy. This is despite the island being full of empty houses.</p>
         <p>The island has become a holiday resort and retirement home due to this lack of housing for newcomers. The school is about to close and the population is in a free-fall.
             <br>
             <p> Despite this fact, some people are choosing to hoard homes that could be made available to the many families who would like to have them. </p>
@@ -53,7 +54,9 @@
     </div>
 </section>
 
-<section class="form-section">
+<!-- <section class="form-section">
+    <div class ="record-form-container">
+
     <form class="record-form" method="POST" action="#">
         <h2><i class="fa-solid fa-house-crack"></i>Report a Home</h2>
 
@@ -77,12 +80,42 @@
         <input type="radio" id="derelict" name="house_type" value="derelict">
 
         <input class="record" type="submit" value="Record">
-        <button>Record</button>
 
-        
     </form>
+</div>
+</section> -->
 
-</section>
+<section class="about-form-section" method="POST" action="#">
+    <h2><i class="fa-solid fa-house-crack"></i>Report a Home</h2>
+
+    <form id="report-house">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+  
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+  
+      <label for="address">Address:</label>
+      <textarea id="address" name="address" required></textarea>
+  
+      <label for="postcode">Postcode:</label>
+      <input type="text" id="postcode" name="postcode" required>
+
+      <label>
+        <input type="radio" name="property-status" value="derelict">
+        Derelict
+      </label>
+      
+      <label>
+        <input type="radio" name="property-status" value="vacant">
+        Vacant
+      </label>
+      
+  
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+  
 
     <footer>
             <ul class= "social-media">

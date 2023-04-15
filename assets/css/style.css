@@ -10,7 +10,7 @@
 
 body {
     font-family: Ubuntu, sans serif;
-    font-weight: 400;
+    font-weight: 200;
     color: #283d26;
 }
 /* headings and logo */
@@ -99,17 +99,17 @@ letter-spacing: 3px;
     transform: translate(-50%, -50%);
   }
 
-  input {
+  #form input {
     all: unset;
     font-size: 20px;
-    font-family: Raleway, sans-serif;
+    font-family: Ubuntu, sans-serif;
     color: grey;
     height: 100%;
     width: 100%;
     padding: 6px 10px;
   }
 
-  button {
+  #form button {
     all: unset;
     cursor: pointer;
     width: 60px;
@@ -141,7 +141,8 @@ letter-spacing: 3px;
 
     font-family: Ubuntu, sans serif;
     font-size: 120%;
-    letter-spacing: 2px;
+    letter-spacing: 3px;
+    font-weight: 200;
     
 
     width: 400px;
@@ -407,56 +408,73 @@ transform: scale(1.1);
   position: absolute;
   /* To make this postioning work, parent element has to be set to relative */
 
+/* 
+  Report a house form */
+}
+.about-form-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.about-form-section > h2 {
+margin-bottom: 30px;
 }
 
-.form-section {
-  background-color: rgba(0,5,0,0.2);
-  background-size: cover;
-  background-position: center;
-  height: 600px;
+#report-house {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  width: 90%;
+  max-width: 650px;
 }
 
-/* Form styling*/
-
-.record-form {
-  margin: 5%;
-  
-  max-width: 400px;
-  position: absolute;
-  padding: 30px;
+label {
+  margin-bottom: 10px;
 }
 
-/* .record-form h2 {
-  color: #283d26;
+input[type="radio"] {
+  display: none;
+}
+
+#report-house label {
+  display: inline-block;
+  margin-right: 10px;
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+}
+
+input[type="radio"]:checked + #report-house label {
+  background-color: #f1c40f;
+  color: #fff;
+}
+
+#report-house input, #report-house textarea {
+  padding: 10px;
   margin-bottom: 20px;
-} */
-
-.text-input {
-  color: #283d26;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
   width: 100%;
-  height: 25px;
-  margin: 0 auto;
-  padding: 3%;
-
-  border: 1px solid #979292;
-  border-radius: 2px;
+  max-width: 500px;
 }
 
-.text-input:hover {
-  border-color: whitesmoke;
+button[type="submit"] {
+  background-color: #1a361b;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 
-.join-button {
-  margin-top:20px;
-  border-radius:2px;
-  text-align: center;
-  font-size: 100%;
-  background-color: #283d26;
-  color: #fafafa;
-  display:block;
+button[type="submit"]:hover {
+  background-color: #3e8e41;
 }
-.join-button:hover {
-  background-color: #fafafa;
-  opacity: 0.7; */
-}
-/* Styling for discover them here anchor */
