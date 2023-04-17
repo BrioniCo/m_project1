@@ -25,11 +25,13 @@
 
 -   #### Colour Scheme
     
-    -   The two main colours used are green and grey. Property listing sites frequently use white and blue tones in their sites and so the intention is to stay as close to this as possible. Green tones, like blue, communicates a sense of calm. 
+    -   The two main colours used are a dark forest green, clean white and dark grey. Property listing sites frequently use white and blue tones in their sites and so the intention was to stay as close to this as possible while introducing a serious element in the gloom of the shadowy greys. Green tones, like blue, communicates a sense of calm but the green also brings to mind a sense of dereliction with all of its' moss-covered houses and walls. 
 
 -   #### Typography
     
     -   The fonts used are Raleway for headings and Cabin for paragraphs. Sans Serif has been set as the fallback font in the event that the other fonts have not been imported onto the site. Raleway is a clean, modern sans-serfif style font that sits somewhere between the seriousness of a newspaper font and the light-heartedness of a font commonly used on property listings sites. Cabin is an appropriate pairing for Raleway and lends variety to the site. 
+    Lora and Ubuntu are complimentary fonts. I had difficulty settling on the right font. THe intention of the site is to strike a chord somewhere between a site relaying current affairs and a site casually displaying property listings. I beleive I finally hit this chord with Roboto. 
+    Changed this to Roboto. 
 
 -   -   #### Imagery
         

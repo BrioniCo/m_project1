@@ -1,4 +1,4 @@
-/* font import link for Lora and Ubuntu */
+/* font import link for Roboto (with Lora and Ubuntu left in) */
 @import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&family=Roboto:wght@300;400;500&family=Ubuntu:wght@300;400;500;700&display=swap');
 
 /* wild-card asterix ensures more accurate formatting, removes defaults */
@@ -116,7 +116,7 @@ letter-spacing: 3px;
   }
 
   /* This code is to lift search bar above semi-transparent layer */
-  
+
   .hero-search-bar {
     position: relative;
     z-index: 2;
@@ -186,7 +186,7 @@ letter-spacing: 3px;
 
     padding-top: 30px;
 
-    background-color: rgba(243, 233, 233, 0.4);
+    background-color: rgba(243, 233, 233, 0.7);
 
     bottom: 60px;
     top: 35%;
@@ -394,17 +394,13 @@ footer {
   background-color:#E6E6FA;
 }
 
-/* html footer {
-  top:expression((0-(footer.offsetHeight)+(document.documentElement.clientHeight ? document.documentElement.clientHeight : document.body.clientHeight)+(ignoreMe = document.documentElement.scrollTop ? document.documentElement.scrollTop : document.body.scrollTop))+'px');
-} */
-
 /* About section */
 
 #door-image-outer {
   height: 600px;
   width: 100%;
   overflow:hidden;
-  position: relative;
+  /* position: relative; */
 }
 
 #door-image {
@@ -434,22 +430,22 @@ transform: scale(1.1);
   font-family: Ubuntu, sans-serif;
   letter-spacing: 2px;
 
+  position: absolute;
+
   width: 500px;
   height: 400px;
   margin: auto;
   padding: 2%;
 
-  background-color: rgba(243, 233, 233, 0.7);
 
   top: 30px;
   bottom: 30px;
-  left: 150px;
-  position: absolute;
+  left: 400px;
+}
   /* To make this postioning work, parent element has to be set to relative */
 
-/* 
-  Report a house form */
-}
+/* Report a house form */
+
 .about-form-section {
   display: flex;
   flex-direction: column;
@@ -459,6 +455,28 @@ transform: scale(1.1);
 }
 .about-form-section > h2 {
 margin-bottom: 30px;
+} 
+
+/* Styling for button over image linking to form below */
+
+.record-empty-home-btn {
+  display: inline-block;
+  background-color: rgba(243, 233, 233, 0.7);
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  width: 400px;
+  height: 400px;
+  line-height: 400px;
+  font-size: 20px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+
+}
+
+.record-empty-home-btn:hover {
+  background-color: lightgrey;
+  color: black;
 }
 
 #report-house {
