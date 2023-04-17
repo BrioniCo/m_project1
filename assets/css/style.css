@@ -75,12 +75,12 @@ letter-spacing: 3px;
  .hero-image {
     height: 650px;
     width: 100%;
-    background: url('../css/images/south-harbour.jpg') no-repeat center center;
+    background: url('../css/images/hero-house.jpg') no-repeat center center;
     overflow: hidden;
     position: relative;
-
-
+    background-size: cover;
  }
+
 /* Add some opacity to hero image */
 
 .hero-image::before {
@@ -98,7 +98,6 @@ letter-spacing: 3px;
  /* Search bar styling */
 
  #form {
-  
     background-color: rgba(243, 233, 233, 0.7);
     width: 600px;
     height: 75px;
@@ -107,7 +106,6 @@ letter-spacing: 3px;
     flex-direction: row;
     align-items: center;
  
-
     top: 500px;
     text-align: center;
     left:50%;
@@ -186,7 +184,7 @@ letter-spacing: 3px;
 
     padding-top: 30px;
 
-    background-color: rgba(243, 233, 233, 0.7);
+    background-color: rgba(243, 233, 233, 0.6);
 
     bottom: 60px;
     top: 35%;
@@ -194,12 +192,18 @@ letter-spacing: 3px;
     left:50%;
     position: absolute;
     transform: translate(-50%, -50%);
+    z-index: 2;
+    }
+
+    .hero-image-text:hover {
+      background-color: lightgrey;
+      color: black;
     }
 
   .hero-image-text, .hero-image-text h2 {
-      color: #283d26;
-
+      color: rgb(16,16,16);
     }
+
     .hero-image-text h2 h3 {
       font-weight: 100;
     }
