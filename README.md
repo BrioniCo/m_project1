@@ -33,14 +33,13 @@
 
 -   -   #### Imagery
         
-        -   The images in this site are of the utmost importane as they communicate the issue of vacant and derelict housing most efficiently. The large, background hero image is designed to create impact, communicate the feeling of 'home' in an Irish context and pique the user's interest in the campaign.
+        -   The images in this site are of the utmost importance as they communicate the issue of vacant and derelict housing most efficiently. The large, background hero image is designed to create impact, communicate the feeling of 'home' in an Irish context and pique the user's interest in the campaign.
 
 
 -   ### Wireframes
     
     -   Home Page Wireframe - [View](https://github.com/)
         
-    -   Mobile Wireframe - [View](https://github.com/)
         
     -   Contact Us Page Wireframe - [View](https://github.com/)
         
@@ -92,14 +91,14 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
     1.  As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the campaign.
         
         1.  Upon entering the site, users are automatically greeted with a clean and easily readable navigation bar to go to the page of their choice. Underneath there is a Hero Image with Text and a "Search Properties" Call to action button.
-        2.  The main points are made immediately with the hero image
-        3.  The user has two options, click the call to action buttons or scroll down, (both of which will lead to the same place, to learn more about the organisation.)
+        2.  The main points are made immediately with the text over the hero image and the colour scheme which is dark and serious. 
+        3.  The user has two options, click the call to action buttons or navigate to the About or Listings sections on the header. 
+
     2.  As a First Time Visitor, I want to be able to easily be able to navigate throughout the site to find content.
         
         1.  The site has been designed to be fluid and never to entrap the user. At the top of each page there is a clean navigation bar, each link describes what the page they will end up at clearly.
         2.  At the bottom of the first 3 pages there is a redirection call to action to ensure the user always has somewhere to go and doesn't feel trapped as they get to the bottom of the page.
-        3.  On the Home Page, after a form response is submitted, the page refreshes and the user is brought to the top of the page where the navigation bar is.
-    3.  As a First Time Visitor, I want to locate social media links to see the campaign's following on social media and to get a further sense of what the campaign is all about. 
+    3.  As a First Time Visitor, I want to locate social media links to see the campaign's following on social media and to get a further sense of what the campaign is all about. These social media links are placed at the bottom of the page. It is good practice to locate them in the footer if the social media is not updated very reguarly. If the social media pages were to be quite active, I would want to relocate them to the header. 
         
         1.  Once the new visitor has read the About and Property Listings text, they will notice the ____.
         2.  The user can also scroll to the bottom of any page on the site to locate social media links in the footer.
@@ -147,6 +146,9 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 ### Known Bugs
 
 -   On
+Problem with the header disappearing behind the hero image. Fixed this by changing the position from absolute to relative on the hero image. This was recommended by a tutot during a tutorial session. 
+
+
 
 ## Deployment
 
@@ -212,7 +214,7 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 - A lot of the box elements and styling of the header elements and ____ came from [Mr Web Designer] (https://www.youtube.com/watch?v=khLaYtW5N4s)
 
-- I used a snippet of code from [StackOverflow](https://stackoverflow.com/questions/15960290/css-footer-not-displaying-at-the-bottom-of-the-page) to fix a problem I was having with the footer disappearing behind the hero-image section on the home page. 
+- I used a snippet of code from [StackOverflow](https://stackoverflow.com/questions/15960290/css-footer-not-displaying-at-the-bottom-of-the-page) to fix a problem I was having with the footer disappearing behind the hero-image section on the home page. - this should go in bugs instead as fixed by tutorial-it was a position:absolute issue. 
 
 ### Content
 
