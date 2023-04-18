@@ -166,7 +166,7 @@ letter-spacing: 3px;
   .signup-form {
     margin: 150px 10% 0 0;
     color: #fff;
-    background-color: rgba(60, 60, 60, 0.6);
+    background-color: rgba(60, 60, 60, 0.7);
     max-width: 400px;
     position: absolute;
     left: 10%;
@@ -184,7 +184,7 @@ letter-spacing: 3px;
 
     padding-top: 30px;
 
-    background-color: rgba(243, 233, 233, 0.8);
+    background-color: rgba(243, 233, 233, 0.6);
 
     bottom: 60px;
     top: 35%;
@@ -201,7 +201,7 @@ letter-spacing: 3px;
     }
 
   .hero-image-text, .hero-image-text h2 {
-      color: rgb(16,16,16);
+      color: #1a361b;
     }
 
     .hero-image-text h2 h3 {
@@ -210,23 +210,53 @@ letter-spacing: 3px;
 
   #discover-them {
     text-decoration: none;
-    color: #283d26;
+    color: #1a361b;
     }
    
   #discover-them:hover {
       border-bottom: 1.5px solid #3a3a3a;
     }
-    
+/*     
+    Text at bottom of page and link to form */
+
     #join-us {
-      height: 150px;
+      height: 675px;
+      letter-spacing: 1px;
+      font-size: 20px;
+      line-height: 1.5;
     }
 
     #explanation {
-        padding-top: 50px;
+      padding-top: 30px;
         width: 100%;
         text-align: center;
     }
 
+    .index-report-link {
+  
+      margin-top: 5px;
+      display: inline-block;
+      background-color: gray;
+      text-align: center;
+  
+      border-radius: 50%;
+      width: 150px;
+      height: 150px;
+
+      line-height: 150px;
+      font-size: 16px;
+      box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+    }
+
+    .index-report-link:hover {
+      background-color:rgba(60, 60, 60, 0.3);
+    }
+
+    .index-report-link a {
+      text-decoration: none;
+      color: white;
+    }
+   
     /* Resets */
 
     img {
@@ -234,14 +264,13 @@ letter-spacing: 3px;
     }
 
     footer {
-      height: 150px;
-
+      height: 100px;
     }
   
   .social-media {
     text-align: center;
 } 
-/* Now target list items and align horizontally - go back and use this method for the home nav bar! */
+/* Now target list items and align horizontally */
 
 .social-media > li {
   display: inline;
@@ -251,7 +280,7 @@ letter-spacing: 3px;
 .social-media i {
     padding: 2%;
     margin: 2%;
-    color: #283d26;
+    color: black;
     font-size: 160%;
 }
 
@@ -440,7 +469,7 @@ transform: scale(1.1);
 
   top: 30px;
   bottom: 30px;
-  left: 400px;
+  left: 475px;
 }
   /* To make this postioning work, parent element has to be set to relative */
 
