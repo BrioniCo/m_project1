@@ -535,6 +535,7 @@ label {
 input[type="radio"]:checked + #report-house label {
   background-color: #f1c40f;
   color: #fff;
+  border-radius: 5px;
 }
 
 #report-house input, #report-house textarea {
