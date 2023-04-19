@@ -640,9 +640,9 @@ button[type="submit"]:hover {
 
  /* Media queries */
 
- @media screen and (max-width: px) {
+ /* @media screen and (max-width: #px) {
   .record-empty-home-btn {
   }
   #door-cover-text {
   }
-}
+} */
