@@ -193,7 +193,7 @@ letter-spacing: 3px;
     Text at bottom of page and link to form */
 
     #join-us {
-      height: 700px;
+      height: 750px;
       letter-spacing: 1px;
       font-size: 20px;
       line-height: 1.5;
@@ -203,8 +203,13 @@ letter-spacing: 3px;
       padding-top: 30px;
       width: 100%;
       text-align: center;
+      font-weight: 200;
     }
 
+    #explanation > p {
+      font-weight: 300;
+    }
+    
     .index-report-link {
   
       margin-top: 5px;
@@ -259,6 +264,11 @@ letter-spacing: 3px;
     }
 
     @media screen and (max-width: 725px) {
+      #join-us  {
+        width: 65%;
+        height: 1250px;
+        margin: 0 auto;
+    }
       .index-report-link {
         width: 100px;
         height: 100px;
@@ -271,15 +281,58 @@ letter-spacing: 3px;
         float: left;
         margin-left: 30px;
         margin-bottom: 20px;
+        margin-top: 20px;
+        line-height: 10px;
       }
       #logo {
         float:left;
         font-size:160%;
         padding-left: 25px;
         padding-right:35px;
+        line-height: 40px;
       }
+      #form {
+        width: 350px;
+        height: 50px;
+      }
+      .hero-image-text {
+        width: 80%;
+        height: 375px;
+    }
     }
 
+    /* Media quesries for smallest screens */
+
+    @media screen and (max-width: 400px) {
+      .index-report-link {
+        width: 80px;
+        height: 80px;
+        margin-top: 3px;
+  
+        line-height: 80px;
+        font-size: 8px;
+      }
+      #form {
+        width: 350px;
+        height: 50px;
+      }
+      #join-us  {
+        width: 55%;
+        height: 1500px;
+        margin: 0 auto;
+    }
+    #logo {
+      float:left;
+      font-size:150%;
+      padding-left: 20px;
+      padding-right:30px;
+      line-height: 35px;
+    }
+    .hero-image-text {
+      width: 70%;
+      height: 400px;
+  }
+}
     /* Resets */
 
     img {
