@@ -43,8 +43,8 @@ header {
 }
 
 #site-menu {
-font-size:110%;
-letter-spacing: 3px;
+  font-size:110%;
+  letter-spacing: 3px;
 }
 
 #logo, #menu, #social-media {
@@ -207,6 +207,15 @@ letter-spacing: 3px;
       font-weight: 200;
     }
 
+    #contact-info {
+      color: white;
+      font-size: 110%;
+      font-weight: 300;
+      margin: 0 auto;
+      text-align: center;
+      padding-bottom: 14px;
+    }
+
     #explanation > p {
       font-weight: 300;
     }
@@ -243,15 +252,14 @@ letter-spacing: 3px;
         width: 65%;
         height: 1200px;
         margin: 0 auto;
+     }
+      #form {
+        width: 420px;
+        height: 60px;
     }
-    
-    #form {
-      width: 420px;
-      height: 60px;
-    }
-    select {
-      font-size: 16px;
-      padding: 6px 6px 6px 6px; 
+     select {
+        font-size: 16px;
+        padding: 6px 6px 6px 6px; 
     }
      #form input {
       padding:4px;
@@ -261,15 +269,26 @@ letter-spacing: 3px;
       width: 18px;
       height: 20px;
       padding: 8px;
-  }
     }
+    .record-empty-home-btn {
+      width: 300px;
+      height: 300px;
+      line-height: 300px;
+      font-size: 18px;
+    }
+    .about-section {
+      width: 80%;
+      height: 1500px;
+      /* Try it with section instead of div */
+    }
+  }
 
     @media screen and (max-width: 725px) {
       #join-us  {
         width: 65%;
         height: 1250px;
         margin: 0 auto;
-    }
+      }
       .index-report-link {
         width: 100px;
         height: 100px;
@@ -300,72 +319,72 @@ letter-spacing: 3px;
         width: 80%;
         height: 375px;
     }
-    }
+  }
 
     /* Media quesries for smallest screens */
 
-    @media screen and (max-width: 400px) {
-      .index-report-link {
-        width: 80px;
-        height: 80px;
-        margin-top: 3px;
+@media screen and (max-width: 400px) {
+  .index-report-link {
+      width: 80px;
+      height: 80px;
+      margin-top: 3px;
   
-        line-height: 80px;
-        font-size: 8px;
-      }
-      #form {
-        width: 350px;
-        height: 50px;
-      }
-      #join-us  {
-        width: 55%;
-        height: 1500px;
-        margin: 0 auto;
-    }
-    #logo {
+      line-height: 80px;
+      font-size: 8px;
+  }
+  #form {
+      width: 350px;
+      height: 50px;
+  }
+  #join-us  {
+      width: 55%;
+      height: 1500px;
+      margin: 0 auto;
+  }
+  #logo {
       float:left;
       font-size:150%;
       padding-left: 20px;
       padding-right:30px;
       line-height: 35px;
-    }
-    .hero-image-text {
-      width: 70%;
-      height: 400px;
+  }
+  .hero-image-text {
+    width: 70%;
+    height: 400px;
   }
 }
-    /* Resets */
+   /* Resets */
 
-    img {
-    max-width: 100%;
-    }
+img {
+  max-width: 100%;
+}
 
-    footer {
-      height: 100px;
-    }
+footer {
+  height: 100px;
+}
   
-  .social-media {
-    text-align: center;
-    } 
+.social-media {
+  text-align: center;
+} 
 
 /* Now target list items and align horizontally */
 
-  .social-media > li {
+.social-media > li {
   display: inline;
-    }
+}
 
 /* NOw the icons need to be targeted and styled */
 
-  .social-media i {
-    padding: 2%;
-    margin: 2%;
-    color: black;
-    font-size: 160%;
-  }
-
-  .heading {
+.social-media i {
   padding: 2%;
-  }
+  margin: 2%;
+  color: black;
+  font-size: 160%;
+}
+
+.heading {
+  padding: 2%;
+}
 
 /* Property listing boxes */
 
@@ -377,11 +396,11 @@ letter-spacing: 3px;
 }
 
 .featured .box-container .box {
- border:.1rem solid rgba(0,0,0,.2);
- box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
- border-radius: .5rem;
- overflow: hidden;
- flex:1 1 30rem;
+  border:.1rem solid rgba(0,0,0,.2);
+  box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+  border-radius: .5rem;
+  overflow: hidden;
+  flex:1 1 30rem;
 }
 
 .image-container {
@@ -391,7 +410,7 @@ letter-spacing: 3px;
   height: 25rem;
 }
 
- .image-container > img {
+.image-container > img {
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -532,42 +551,38 @@ footer {
     transform: scale(1);
   }
   to {
-transform: scale(1.1);
+    transform: scale(1.1);
   }
 }
 
 #door-cover-text {
-letter-spacing: 2px;
-
- z-index: 999;
+  letter-spacing: 2px;
+  z-index: 999;
 
   width: 500px;
   height: 400px;
- margin: 0 auto;
+  margin: 0 auto;
   padding-top: 5%;
-  padding-left:5%;
-
-  top: 40px;
-  bottom: 30px;
-  left: 475px;
+  padding-left:9%;
 }
 
 .about-section {
   width: 80%;
-  height: 650px;
-
+  height: 750px;
   text-align: center;
- 
   line-height: 30px;
+
   border:.4rem solid rgba(0,0,0,.1);
   letter-spacing: 2px;
   font-size: 110%;
-  margin: 0 auto;
- padding-top: 5%;
- padding-left: 2%;
- padding-right: 2%;
-
   font-weight: 400;
+  
+  margin: 0 auto;
+  padding-top: 5%;
+  padding-left: 2%;
+  padding-right: 2%;
+
+  border:.4rem solid rgba(0,0,0,.1);
 }
 
 .about-section p h2 {
@@ -583,6 +598,7 @@ letter-spacing: 2px;
   margin-top: 50px;
   margin-bottom: 50px;
 }
+
 .about-form-section > h2 {
 margin-bottom: 30px;
 } 
@@ -662,11 +678,6 @@ button[type="submit"]:hover {
   background-color: #3e8e41;
 }
 
- /* Media queries */
 
- /* @media screen and (max-width: #px) {
-  .record-empty-home-btn {
-  }
-  #door-cover-text {
-  }
-} */
+
+ 
