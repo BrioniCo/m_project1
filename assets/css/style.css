@@ -266,9 +266,19 @@ letter-spacing: 3px;
         line-height: 100px;
         font-size: 10px;
       }
-
+      #site-menu li {
+        clear: left;
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 20px;
+      }
+      #logo {
+        float:left;
+        font-size:160%;
+        padding-left: 25px;
+        padding-right:35px;
+      }
     }
-
 
     /* Resets */
 
@@ -282,24 +292,24 @@ letter-spacing: 3px;
   
   .social-media {
     text-align: center;
-} 
+    } 
 /* Now target list items and align horizontally */
 
-.social-media > li {
+  .social-media > li {
   display: inline;
-}
+    }
 /* NOw the icons need to be targeted and styled */
 
-.social-media i {
+  .social-media i {
     padding: 2%;
     margin: 2%;
     color: black;
     font-size: 160%;
-}
+  }
 
-.heading {
+  .heading {
   padding: 2%;
-}
+  }
 
 /* Property listing boxes */
 
@@ -440,7 +450,7 @@ footer {
   background-color:rgb(136,136,136);
 }
 
-/* About section */
+/* Report section */
 
 #door-image-outer {
   height: 600px;
@@ -573,4 +583,13 @@ button[type="submit"] {
 
 button[type="submit"]:hover {
   background-color: #3e8e41;
+}
+
+ /* Media queries */
+
+ @media screen and (max-width: px) {
+  .record-empty-home-btn {
+  }
+  #door-cover-text {
+  }
 }
