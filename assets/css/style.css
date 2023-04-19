@@ -1,5 +1,5 @@
-/* font import link for Roboto (with Lora and Ubuntu left in) */
-@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&family=Roboto:wght@300;400;500&family=Ubuntu:wght@300;400;500;700&display=swap');
+/* font import link for Roboto for headings and Lato for the body */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400&family=Roboto:wght@300;400;500&display=swap');
 
 /* wild-card asterix ensures more accurate formatting, removes defaults */
 * {
@@ -9,7 +9,7 @@
 }
 
 body {
-    font-family: Roboto, sans serif;
+    font-family: Lato, sans serif;
     font-weight: 200;
     color: #283d26;
 }
@@ -62,6 +62,7 @@ letter-spacing: 3px;
     text-decoration: none;
     color: inherit;    
 }
+
 #site-menu a:hover {
     border-bottom: 1.5px solid #3a3a3a;
 }
@@ -69,6 +70,7 @@ letter-spacing: 3px;
 .active {
     border-bottom: 1.5px solid #3a3a3a;
 }
+
  /* Targeting middle section with hero image */
 
  
@@ -123,7 +125,8 @@ letter-spacing: 3px;
   #form input {
     all: unset;
     font-size: 20px;
-    font-family: Roboto, sans-serif;
+    font-family: Lato, sans-serif;
+    font-weight: 100;
     color: gray;
     height: 100%;
     width: 100%;
@@ -149,7 +152,8 @@ letter-spacing: 3px;
   select option {
     font-size: 14px;
     color: #635d5d;
-    font-family: Roboto, sans-serif;
+    font-family: Lato, sans-serif;
+    font-weight: 100;
   }
 
   /* Styling for the magnifying glass */
@@ -173,9 +177,10 @@ letter-spacing: 3px;
     padding: 30px;
 }
 
-.hero-image-text {
+  .hero-image-text {
 
-    font-family: Roboto, sans serif;
+    font-family: Lato, sans serif;
+    font-weight: 200;
     font-size: 120%;
     letter-spacing: 3px;
 
@@ -200,7 +205,7 @@ letter-spacing: 3px;
       color: black;
     }
 
-  .hero-image-text, .hero-image-text h2 {
+    .hero-image-text, .hero-image-text h2 {
       color: #1a361b;
     }
 
@@ -208,19 +213,19 @@ letter-spacing: 3px;
       font-weight: 100;
     }
 
-  #discover-them {
+    #discover-them {
     text-decoration: none;
     color: #1a361b;
     }
    
-  #discover-them:hover {
+   #discover-them:hover {
       border-bottom: 1.5px solid #3a3a3a;
     }
 /*     
     Text at bottom of page and link to form */
 
     #join-us {
-      height: 675px;
+      height: 700px;
       letter-spacing: 1px;
       font-size: 20px;
       line-height: 1.5;
@@ -228,8 +233,8 @@ letter-spacing: 3px;
 
     #explanation {
       padding-top: 30px;
-        width: 100%;
-        text-align: center;
+      width: 100%;
+      text-align: center;
     }
 
     .index-report-link {
