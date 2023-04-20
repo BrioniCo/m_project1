@@ -75,284 +75,175 @@ header {
  /* Targeting middle section with hero image */
 
  
- .hero-image {
-    height: 650px;
-    width: 100%;
-    background: url('../css/images/hero-house.jpg') no-repeat center center;
-    overflow: hidden;
-    position: relative;
-    background-size: cover;
- }
+.hero-image {
+  height: 650px;
+  width: 100%;
+  background: url('../css/images/hero-house.jpg') no-repeat center center;
+  overflow: hidden;
+  position: relative;
+  background-size: cover;
+}
 
  /* Search bar styling */
 
- #form {
-    background-color: rgba(243, 233, 233, 0.7);
-    width: 600px;
-    height: 75px;
-    border-radius: 10px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+#form {
+  background-color: rgba(243, 233, 233, 0.7);
+  width: 600px;
+  height: 75px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
  
-    top: 500px;
-    text-align: center;
-    left:50%;
-    position: absolute;
-    transform: translate(-50%, -50%);
-  }
+  top: 500px;
+  text-align: center;
+  left:50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
 
-  #form input {
-    all: unset;
-    font-size: 20px;
-    font-family:'Lato', sans-serif;
-    font-weight: 400;
-    color: black;
-    height: 100%;
-    width: 100%;
-    padding: 6px 10px;
-  }
+#form input {
+  all: unset;
+  font-size: 20px;
+  font-family:'Lato', sans-serif;
+  font-weight: 400;
+  color: black;
+  height: 100%;
+  width: 100%;
+  padding: 6px 10px;
+}
 
-  #form button {
-    all: unset;
-    cursor: pointer;
-    width: 60px;
-    height: 60px;
-  }
+#form button {
+  all: unset;
+  cursor: pointer;
+  width: 60px;
+  height: 60px;
+}
  
-  select {
-    font-size: 16px;
-    padding: 8px 16px 8px 20px; 
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    background-color: rgba(243, 233, 233, 0.5);
-    color: gray;
-  }
+select {
+  font-size: 16px;
+  padding: 8px 16px 8px 20px; 
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: rgba(243, 233, 233, 0.5);
+  color: gray;
+}
 
-  select option {
-    font-size: 14px;
-    color: #251919;
-    font-family:'Lato', sans-serif;
-    font-weight: 200;
+select option {
+  font-size: 14px;
+  color: #251919;
+  font-family:'Lato', sans-serif;
+  font-weight: 200;
   }
 
   /* Styling for the magnifying glass */
-  svg {
-    color: #251919;
-    fill: currentColor;
-    text-align: left;
-    width: 24px;
-    height: 24px;
-    padding: 10px;
-  }
+svg {
+  color: #251919;
+  fill: currentColor;
+  text-align: left;
+  width: 24px;
+  height: 24px;
+  padding: 10px;
+}
 
-  .hero-image-text {
+.hero-image-text {
+  font-family:'Lato', sans-serif;
+  font-weight: 200;
+  font-size: 120%;
+  letter-spacing: 3px;
 
-    font-family:'Lato', sans-serif;
-    font-weight: 200;
-    font-size: 120%;
-    letter-spacing: 3px;
+  width: 400px;
+  height: 300px;
 
-    width: 400px;
-    height: 300px;
+  padding-top: 30px;
 
-    padding-top: 30px;
+  background-color: rgba(243, 233, 233, 0.6);
 
-    background-color: rgba(243, 233, 233, 0.6);
+  bottom: 60px;
+  top: 35%;
+  text-align: center;
+  left:50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+}
 
-    bottom: 60px;
-    top: 35%;
-    text-align: center;
-    left:50%;
-    position: absolute;
-    transform: translate(-50%, -50%);
-    z-index: 2;
-    }
+.hero-image-text:hover {
+  background-color: lightgrey;
+  color: black;
+}
 
-    .hero-image-text:hover {
-      background-color: lightgrey;
-      color: black;
-    }
+.hero-image-text, .hero-image-text h2 {
+  color: #1a361b;
+}
 
-    .hero-image-text, .hero-image-text h2 {
-      color: #1a361b;
-    }
+.hero-image-text h2 h3 {
+  font-weight: 100;
+}
 
-    .hero-image-text h2 h3 {
-      font-weight: 100;
-    }
-
-    #discover-them {
-    text-decoration: none;
-    color: #1a361b;
-    }
+#discover-them {
+  text-decoration: none;
+  color: #1a361b;
+}
    
-   #discover-them:hover {
-      border-bottom: 1.5px solid #3a3a3a;
-    }
+#discover-them:hover {
+  border-bottom: 1.5px solid #3a3a3a;
+}
 /*     
     Text at bottom of page and link to form */
 
-    #join-us {
-      height: 750px;
-      letter-spacing: 1px;
-      font-size: 20px;
-      line-height: 1.5;
-    }
-
-    #explanation {
-      padding-top: 30px;
-      width: 100%;
-      text-align: center;
-      font-weight: 200;
-    }
-
-    #contact-info {
-      color: white;
-      font-size: 110%;
-      font-weight: 300;
-      margin: 0 auto;
-      text-align: center;
-      padding-bottom: 14px;
-    }
-
-    #explanation > p {
-      font-weight: 300;
-    }
-    
-    .index-report-link {
-  
-      margin-top: 5px;
-      display: inline-block;
-      background-color: gray;
-      text-align: center;
-  
-      border-radius: 50%;
-      width: 150px;
-      height: 150px;
-
-      line-height: 150px;
-      font-size: 16px;
-      box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
-    }
-
-    .index-report-link:hover {
-      background-color:rgba(60, 60, 60, 0.3);
-    }
-
-    .index-report-link a {
-      text-decoration: none;
-      color: white;
-    }
-
-    /* Media queries */
-
-    @media screen and (max-width: 1025px) {
-      #join-us  {
-        width: 65%;
-        height: 1200px;
-        margin: 0 auto;
-     }
-      #form {
-        width: 420px;
-        height: 60px;
-    }
-     select {
-        font-size: 16px;
-        padding: 6px 6px 6px 6px; 
-    }
-     #form input {
-      padding:4px;
-      font-size: 16px;
-    }
-    svg {
-      width: 18px;
-      height: 20px;
-      padding: 8px;
-    }
-    .record-empty-home-btn {
-      width: 300px;
-      height: 300px;
-      line-height: 300px;
-      font-size: 18px;
-    }
-    .about-section {
-      width: 80%;
-      height: 1500px;
-      /* Try it with section instead of div */
-    }
-  }
-
-    @media screen and (max-width: 725px) {
-      #join-us  {
-        width: 65%;
-        height: 1250px;
-        margin: 0 auto;
-      }
-      .index-report-link {
-        width: 100px;
-        height: 100px;
-  
-        line-height: 100px;
-        font-size: 10px;
-      }
-      #site-menu li {
-        clear: left;
-        float: left;
-        margin-left: 30px;
-        margin-bottom: 20px;
-        margin-top: 20px;
-        line-height: 10px;
-      }
-      #logo {
-        float:left;
-        font-size:160%;
-        padding-left: 25px;
-        padding-right:35px;
-        line-height: 40px;
-      }
-      #form {
-        width: 350px;
-        height: 50px;
-      }
-      .hero-image-text {
-        width: 80%;
-        height: 375px;
-    }
-  }
-
-    /* Media quesries for smallest screens */
-
-@media screen and (max-width: 400px) {
-  .index-report-link {
-      width: 80px;
-      height: 80px;
-      margin-top: 3px;
-  
-      line-height: 80px;
-      font-size: 8px;
-  }
-  #form {
-      width: 350px;
-      height: 50px;
-  }
-  #join-us  {
-      width: 55%;
-      height: 1500px;
-      margin: 0 auto;
-  }
-  #logo {
-      float:left;
-      font-size:150%;
-      padding-left: 20px;
-      padding-right:30px;
-      line-height: 35px;
-  }
-  .hero-image-text {
-    width: 70%;
-    height: 400px;
-  }
+#join-us {
+  height: 750px;
+  letter-spacing: 1px;
+  font-size: 20px;
+  line-height: 1.5;
 }
+
+#explanation {
+  padding-top: 30px;
+  width: 100%;
+  text-align: center;
+  font-weight: 200;
+}
+
+#contact-info {
+  color: white;
+  font-size: 110%;
+  font-weight: 300;
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 14px;
+}
+
+#explanation > p {
+  font-weight: 300;
+}
+    
+.index-report-link {
+  margin-top: 5px;
+  display: inline-block;
+  background-color: gray;
+  text-align: center;
+  
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+
+  line-height: 150px;
+  font-size: 16px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.index-report-link:hover {
+  background-color:rgba(60, 60, 60, 0.3);
+}
+
+.index-report-link a {
+  text-decoration: none;
+  color: white;
+}
+
+
    /* Resets */
 
 img {
@@ -567,6 +458,11 @@ footer {
 }
 
 .about-section {
+  width: 100%;
+  height: 700px;
+}
+
+.about-text-box {
   width: 80%;
   height: 750px;
   text-align: center;
@@ -585,7 +481,7 @@ footer {
   border:.4rem solid rgba(0,0,0,.1);
 }
 
-.about-section p h2 {
+.about-text-box p h2 {
   padding-top: 30px;
 }
 
@@ -634,6 +530,8 @@ margin-bottom: 30px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
   width: 90%;
   max-width: 650px;
+
+  height: 700px;
 }
 
 label {
@@ -678,6 +576,138 @@ button[type="submit"]:hover {
   background-color: #3e8e41;
 }
 
+ /* Media queries */
+
+ @media screen and (max-width: 1153px) {
+  .about-section {
+    width: 70%;
+    height: 1200px;
+  }
+  .about-text-box  {
+    width: 80%;
+    height: 800px;
+  }
+}
+
+@media screen and (max-width: 1025px) {
+  #join-us  {
+    width: 65%;
+    height: 1200px;
+    margin: 0 auto;
+  }
+  #form {
+    width: 420px;
+    height: 60px;
+  }
+  select {
+    font-size: 16px;
+    padding: 6px 6px 6px 6px; 
+  }
+  #form input {
+    padding:4px;
+    font-size: 16px;
+  }
+  svg {
+    width: 18px;
+    height: 20px;
+    padding: 8px;
+  }
+  .record-empty-home-btn {
+    width: 300px;
+    height: 300px;
+    line-height: 300px;
+    font-size: 18px;
+  }
+  .about-section {
+    height: 1500px;
+  }
+  .about-text-box {
+    height: 1000px;
+  }
+}
+
+@media screen and (max-width: 725px) {
+  #join-us  {
+    width: 65%;
+    height: 1250px;
+    margin: 0 auto;
+  }
+  .index-report-link {
+    width: 100px;
+    height: 100px;
+  
+    line-height: 100px;
+    font-size: 10px;
+  }
+  #site-menu li {
+   clear: left;
+    float: left;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    line-height: 10px;
+  }
+  #logo {
+    float:left;
+    font-size:160%;
+    padding-left: 25px;
+    padding-right:35px;
+    line-height: 40px;
+  }
+  #form {
+    width: 350px;
+    height: 50px;
+  }
+  .hero-image-text {
+    width: 80%;
+    height: 375px;
+  }
+  .about-section {
+    height: 2000px;
+  }
+  .about-text-box {
+    height: 1500px;
+  }
+}
+
+    /* Media quesries for smallest screens */
+
+@media screen and (max-width: 400px) {
+  .index-report-link {
+      width: 80px;
+      height: 80px;
+      margin-top: 3px;
+  
+      line-height: 80px;
+      font-size: 8px;
+  }
+  #form {
+      width: 350px;
+      height: 50px;
+  }
+  #join-us  {
+      width: 55%;
+      height: 1500px;
+      margin: 0 auto;
+  }
+  #logo {
+      float:left;
+      font-size:150%;
+      padding-left: 20px;
+      padding-right:30px;
+      line-height: 35px;
+  }
+  .hero-image-text {
+    width: 70%;
+    height: 400px;
+  }
+  .about-section {
+    height: 2500px;
+  }
+  .about-text-box {
+    height: 2000px;
+  }
+}
 
 
  
