@@ -243,7 +243,6 @@ svg {
   color: white;
 }
 
-
    /* Resets */
 
 img {
@@ -422,7 +421,6 @@ footer {
   height: 600px;
   width: 100%;
   overflow:hidden;
-  border: 2px solid red;
 }
 
 #door-image {
@@ -435,7 +433,6 @@ footer {
   animation-duration: 3s;
   animation-fill-mode: forwards;
   z-index:1;
-  border: 2px solid red;
 }
 
 /* Create zoom effect to pull viewer into door */
@@ -455,7 +452,6 @@ footer {
   height: 400px;
   margin: 0 auto;
   padding-top: 5%;
-  border: 2px solid red;
 }
 
 .about-section {
@@ -463,7 +459,6 @@ footer {
   flex-wrap: wrap;
   gap:1.5rem;
   padding: 2%;
-  border: 2px solid red;
 }
 
 .about-text-box {
@@ -479,7 +474,6 @@ footer {
   text-align: center;
   padding: 2%;
   line-height: 30px;
-  border: 2px solid red;
 }
 
 .about-text-box p h2 {
@@ -494,18 +488,16 @@ footer {
   align-items: center;
   margin-top: 50px;
   margin-bottom: 50px;
-  border: 2px solid red;
 }
 
 .about-form-section > h2 {
-margin-bottom: 30px;
+  margin-bottom: 30px;
 } 
 
 /* Styling for button over image linking to form below */
 
 #report-vacant-button {
   text-align: center;
-  border: 2px solid red;
 }
 
 .record-empty-home-btn {
