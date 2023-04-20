@@ -481,21 +481,12 @@ footer {
   line-height: 30px;
 
   /* width: 80%;
-  height: 750px;
   text-align: center;
   line-height: 30px;
 
-  border:.4rem solid rgba(0,0,0,.1);
   letter-spacing: 2px;
-  font-size: 110%;
-  font-weight: 400;
   
-  margin: 0 auto;
-  padding-top: 5%;
-  padding-left: 1%;
-  padding-right: 2%;
-
-  border:.4rem solid rgba(0,0,0,.1); */
+ */
 }
 
 .about-text-box p h2 {
@@ -547,6 +538,7 @@ margin-bottom: 30px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
   width: 90%;
   max-width: 650px;
+  font-weight: 400;
 
   height: 700px;
 }
