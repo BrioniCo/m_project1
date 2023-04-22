@@ -78,7 +78,7 @@ header {
 .hero-image {
   height: 650px;
   width: 100%;
-  background: url('../css/images/hero-house.jpg') no-repeat center center;
+  background: url('../css/images/fastnet-house.jpg') no-repeat center center;
   overflow: hidden;
   position: relative;
   background-size: cover;
