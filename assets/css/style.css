@@ -197,6 +197,8 @@ svg {
   letter-spacing: 1px;
   font-size: 20px;
   line-height: 1.5;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 #explanation {
@@ -204,6 +206,7 @@ svg {
   width: 100%;
   text-align: center;
   font-weight: 200;
+  flex:1 1 15rem;
 }
 
 #contact-info {
@@ -452,7 +455,7 @@ border-bottom: .1rem solid rgba(40, 61, 38, .9);
   padding-top: 30px;
 }
 
-/* Report a house form */
+/* Report a house form in about section*/
 
 .about-form-section {
   display: flex;
@@ -466,7 +469,7 @@ border-bottom: .1rem solid rgba(40, 61, 38, .9);
   margin-bottom: 30px;
 } 
 
-/* Styling for button over image linking to form below */
+/* About section-Styling for button over image, form below */
 
 #report-vacant-button {
   text-align: center;
@@ -558,11 +561,6 @@ button[type="submit"]:hover {
 }
 
 @media screen and (max-width: 1025px) {
-  #join-us  {
-    width: 65%;
-    height: 1200px;
-    margin: 0 auto;
-  }
   #form {
     width: 420px;
     height: 60px;
@@ -589,18 +587,6 @@ button[type="submit"]:hover {
 }
 
 @media screen and (max-width: 725px) {
-  #join-us  {
-    width: 65%;
-    height: 1250px;
-    margin: 0 auto;
-  }
-  .index-report-link {
-    width: 100px;
-    height: 100px;
-  
-    line-height: 100px;
-    font-size: 10px;
-  }
   #site-menu li {
    clear: left;
     float: left;
@@ -628,23 +614,11 @@ button[type="submit"]:hover {
 
   /* Media queries for smallest screens */
 @media screen and (max-width: 432px) {
-  .index-report-link {
-    width: 80px;
-    height: 80px;
-    margin-top: 3px;
-  
-    line-height: 80px;
-    font-size: 8px;
-  }
   #form {
     width: 350px;
     height: 50px;
   }
-  #join-us  {
-    width: 55%;
-    height: 1500px;
-    margin: 0 auto;
-  }
+
   #logo {
     float:left;
     font-size:150%;
