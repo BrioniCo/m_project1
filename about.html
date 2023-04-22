@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Parody property-listings site highlighting the vacant housing issue on Cape Clear Island">
+  <meta name="keywords"
+    content="Cape Clear Island, Ireland, Housing shortage, rental shortage, housing crisis, housing emergency, property listings, derelict houses, vacant homes">
+  <link rel="stylesheet" href="assets/css/style.css">
+
+  <title>No Homes here on Cape Clear</title>
+
+</head>
+
+<body>
+  <header>
+    <a href="index.html">
+      <h1 id="logo"><i class="fa-solid fa-house-crack"></i>nohome.ie</h1>
+    </a>
+    <nav>
+      <div id="site-menu">
+        <ul>
+          <li>
+            <a href="about.html" class="active">About</a>
+          </li>
+          <li>
+            <a href="listings.html">Listings</a>
+          </li>
+          <li>
+            <a href="index.html">Home</a>
+          </li>
+        </ul>
+
+    </nav>
+
+  </header>
+  <!-- Image with text overlay -->
+
+  <section>
+
+    <div id="door-image-outer">
+      <div id="door-image">
+        <div id="door-cover-text">
+          <h2 id="report-vacant-button"><a href="#report-house" aria-label="Go to the Report an empty home form" class="record-empty-home-btn">REPORT AN EMPTY HOME</a>
+          </h2>
+        </div>
+      </div>
+    </div>
+
+  </section>
+  <section class="about-section">
+    <div class="about-text-box">
+      <h2>Welcome to NOHOME.ie
+      </h2>
+      <br>
+      <hr>
+      <p>
+        Starting with the island of Cape Clear, our aim is to document each and every vacant home in Ireland.
+        <p>The shortage of housing is a crisis that is having a devastating impact on our communities. Cape
+          Clear is no exception, where the lack of available housing is threatening the sustainability of the
+          island's community.</p>
+      </p>
+      <p>
+        The problem is not just about the lack of new construction, but also about the large number of vacant homes that
+        are left unused. In fact, there are an estimated 200,000 vacant homes across Ireland, while at the same time
+        thousands of people are struggling to find a place to call home.
+      </p>
+      <p><i class="fa-regular fa-heart"></i>
+      </p>
+      <p>
+        At the heart of this crisis is the fact that there are vacant homes owned by landlords who have little or no
+        interest in renting or selling these properties. Meanwhile, local people are forced to leave their communities
+        in search of affordable housing, creating a vicious cycle of depopulation and decline.
+      </p>
+      <p>
+        Our website aims to shed light on this issue and bring attention to the urgent need to address the problem of
+        vacant housing.
+        Through our platform, we aim to name and shame the worst offenders and help to facilitate the process of
+        bringing vacant properties back into use.
+      </p>
+      <p><i class="fa-solid fa-magnifying-glass"></i>
+      </p>
+      <p>If you see a vacant or derelict property in your area, we encourage you to REPORT it using our form below.
+      </p>
+      <p>
+        We believe that everyone has the right to a safe and secure place to call home, and that by working together, we
+        can make a real difference to the
+        lives of people in our community and beyond.
+      </p>
+      <p>
+        <span id="join-mission"><a aria-label="Go to the Report an empty home form" href="#report-house"><strong>Join us in our
+              mission</strong></a>
+        </span> to document each and every vacant home in Ireland.
+      </p>
+    </div>
+
+  </section>
+
+  <section class="about-form-section" method="POST" action="#">
+    <h2><i class="fa-solid fa-house-crack"></i>Report a Vacant Home</h2>
+
+    <form id="report-house">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="address">Address:</label>
+      <textarea id="address" name="address" required></textarea>
+
+      <label for="postcode">Postcode:</label>
+      <input type="text" id="postcode" name="postcode" required>
+
+      <label>
+        <input type="radio" name="property-status" value="derelict">
+        Derelict
+      </label>
+      <label>
+        <input type="radio" name="property-status" value="vacant">
+        Vacant
+      </label>
+
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+
+
+  <footer>
+    <ul class="social-media">
+      <li>
+        <a href="https://www.facebook.com/" target="_blank" rel="noopener"
+          aria-label="Visit our Facebook page (opens in a new tab)"><i class="fa-brands fa-facebook"></i>
+        </a>
+      </li>
+      <li>
+        <a href="https://www.instagram.com/" target="_blank" rel="noopener"
+          aria-label="Visit our Instagram page (opens in a new tab)"></a><i class="fa-brands fa-instagram"></i></a>
+      </li>
+      <li>
+        <a href="https://mastodon.social/explore" target="_blank" rel="noopener"
+          aria-label="Visit our Mastodon page (opens in a new tab)"></a><i class="fa-brands fa-mastodon"></i>
+        </a>
+      </li>
+    </ul>
+    <div id="contact-info">
+      <p>Want to join our mailing list? Contact us on: info@nohome.ie
+
+      </p>
+    </div>
+    <script src="https://kit.fontawesome.com/d3054c9ae7.js" crossorigin="anonymous"></script>
+  </footer>
+
+</body>
+
+</html>
