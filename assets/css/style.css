@@ -253,6 +253,9 @@ img {
 .social-media {
   text-align: center;
 } 
+.social-media i:hover {
+  color: rgba(40, 61, 38, .7);
+}
 
 /* Now target list items and align horizontally */
 
