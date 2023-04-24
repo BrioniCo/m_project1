@@ -6,7 +6,7 @@ NOHOME.ie is a parody property-listings site set up to create further awareness 
 
 Welcome to the campaign <a href="https://brionico.github.io/m_project1/" target="_blank" rel="noopener">NOHOME.ie</a>
 
-![NOHOME.ie amiresponsive image](documentation/amiresponsive.png)
+![NOHOME.ie amiresponsive image](documentation/amiresponsive.png)![plot](./directory_1/directory_2/.../directory_n/amiresponsive.png)
 # Contents
 
 * [**User Experience UX**](<#user-experience-ux>)
