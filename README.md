@@ -244,11 +244,11 @@ The overall feel of the website is intended to be hard-hitting and serious but w
 
 2. Amiresponsive was showing that the last section on the Homepage was bleeding into the footer. This was caused by double inputs for footer values. It was easily resolved. 
 
-![Am i responsive display](documentation/bug_amiresponsive.png)
+3. The last section on the homepage was bleeding over the border when viewed on a smaller screen size. A lot of attempts were made to adjust this using media queries to no avail. The solution was to use flexbox. 
 
 ![Responsivity of information section](documentation/responsive_bug_about_box.png)
 
-3. The *Record* button on the About page was not centering. The height of the div needed to be changed to 100%. 
+4. The *Record* button on the About page was not centering. The height of the div needed to be changed to 100%. 
 
 ![Record a home button in About](documentation/bug_solution_percent.png)
 
