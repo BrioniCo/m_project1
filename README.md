@@ -266,7 +266,6 @@ The overall feel of the website is intended to be hard-hitting and serious but w
         
        -  Upon entering the site, users are automatically greeted with a clean and easily readable navigation bar to go to the page of their choice. Underneath there is a Hero Image with Text that contains an embedded link and a "Search Properties" Call to action button.
        - The user has three options, navigate to the *Listings* or *About* sections using the menu on the navigation bar,click on the embedded link in the hero image text that will bring them to the *Listings* page, or scroll down to understand the campaign more and click on the button link that will bring them to the form on the *About* page. 
-       - The site has been designed to be fluid and never to entrap the user. At the top of each page there is a clean navigation bar, each link describes what the page they will end up at clearly.
 
     2. As a user I want to understand what the purpose of the site is as soon as I load it. 
     
