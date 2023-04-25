@@ -1,8 +1,10 @@
 # **_NOHOME.ie_**
 
-NOHOME.ie is a simple parody property-listings site set up to create further awareness of the issue of vacant housing in Ireland. The title echos another popular property listings site in Ireland, *myhome.ie. The listings on the site include vacant and derelict properties on the island of Cape Clear with scope to expand nationwide. 
- The site is part of a campaign/mission to document as many vacant and derelict houses in Ireland. It is the hope that this may encourage the owners of these properties to put them back into use. 
- The site is aimed at anyone with an interest in the housing crisis in Ireland, a pressing topic at present. 
+NOHOME.ie is a simple parody property-listings site set up to create further awareness of the issue of vacant housing in Ireland. The title echos another popular property listings site in Ireland, *myhome.ie*. 
+The listings on MYHOME.ie include only vacant and derelict properties on the island of Cape Clear, properties that are being held onto by owners instead of rented or sold. 
+
+MYHOME.ie is part of a campaign/mission to document as many vacant and derelict houses in Ireland, starting with the microcosm of the issue identified on the island of Cape Clear. It is the hope that this may encourage the owners of these properties to put them back into use. 
+The site is aimed at anyone with an interest in the housing crisis in Ireland, a pressing topic at present. 
 
 Welcome to the campaign <a href="https://brionico.github.io/m_project1/" target="_blank" rel="noopener">NOHOME.ie</a>
 
@@ -93,13 +95,13 @@ The two fonts compliment each other well.
 * ### Colour Scheme
 * The site itself is understated and simple and for this reason, aside from the images, there is an absence of any dominating colour scheme. Instead the site rotates around a subdued palette of white and grey shot with flashes of forest green that pull out and accentuate the greens in the images. 
 
-The colour used most predominantly throughout the site was a dark green rgb colour *rgb(40, 61, 38)*. It was used with varying degrees of transparency.  This colour was chosen both because of how it brought out the subtle greens in the images as well as how it brings to mind the mossy greens and earthy hues associated with houses that have fallen into dereliction. 
+* The colour used most predominantly throughout the site was a dark green rgb colour *rgb(40, 61, 38)*. It was used with varying degrees of transparency.  This colour was chosen both because of how it brought out the subtle greens in the images as well as how it brings to mind the mossy greens and earthy hues associated with houses that have fallen into dereliction. 
 The green was paired with greys and blacks and sometimes a soft brown-black shade, *#251919*. 
 
 ![Colour palate image](documentation/rgb_color.png)
 ![Colour Palate image HEX](documentation/hex.png)
 
-To avoid the use of additional colours that would compete with the images, a shadow effect was used to separate the navigation bar from the rest of the page and the footer from the rest of the page:
+* To avoid the use of additional colours that would compete with the images, a shadow effect was used to separate the navigation bar from the rest of the page and the footer from the rest of the page:
 
 ![Shadow contrast](documentation/shadow-for-contrast.png)
 
@@ -127,10 +129,10 @@ The overall feel of the website is intended to be hard-hitting and serious but w
 
   * ### Introduction
 
-      - Located on the home page over the hero image is text that communicates the mission statement of the campaign. 
-     -Beneath the text is a search bar with a drop-down selector that lists the words *no* *one* *is* and *home*. The intention of this is to further enhance the hard-hitting element of the campaign. 
-     The placeholder message on the search bar tells the user to "Search for your (in) Dream(s) Home".
-     There is also a link to the listings page embedded in the text:
+    * Located on the home page over the hero image is text that communicates the mission statement of the campaign. 
+    * Beneath the text is a search bar with a drop-down selector that lists the words *no* *one* *is* and *home*. The intention of this is to further enhance the hard-hitting element of the campaign. 
+    * The placeholder message on the search bar tells the user to "Search for your (in) Dream(s) Home".
+    * There is also a link to the listings page embedded in the text:
 
 ![Search bar](documentation/home-page_sml.png)
 
@@ -262,44 +264,50 @@ The overall feel of the website is intended to be hard-hitting and serious but w
     
     1. As a user I want to be able to navigate seamlessly throughout the site. 
         
-      -  Upon entering the site, users are automatically greeted with a clean and easily readable navigation bar to go to the page of their choice. Underneath there is a Hero Image with Text that contains an embedded link and a "Search Properties" Call to action button.
-      - The user has three options, navigate to the *Listings* or *About* sections using the menu on the navigation bar,click on the embedded link in the hero image text that will bring them to the *Listings* page, or scroll down to understand the campaign more and click on the button link that will bring them to the form on the *About* page. 
-      - The site has been designed to be fluid and never to entrap the user. At the top of each page there is a clean navigation bar, each link describes what the page they will end up at clearly.
+       -  Upon entering the site, users are automatically greeted with a clean and easily readable navigation bar to go to the page of their choice. Underneath there is a Hero Image with Text that contains an embedded link and a "Search Properties" Call to action button.
+       - The user has three options, navigate to the *Listings* or *About* sections using the menu on the navigation bar,click on the embedded link in the hero image text that will bring them to the *Listings* page, or scroll down to understand the campaign more and click on the button link that will bring them to the form on the *About* page. 
+       - The site has been designed to be fluid and never to entrap the user. At the top of each page there is a clean navigation bar, each link describes what the page they will end up at clearly.
 
     2. As a user I want to understand what the purpose of the site is as soon as I load it. 
     
-      - The purpose of the site is immediately clear as we are presented with an image that effectively portrays the theme of dereliction and vacant housing in an Irish content. The image is very obviously of an Irish farmhouse left to fall into dereliction. In the social context of the housing emergency, the point being made is clear. 
-      - The text over the hero image further establishes the mission statement of the campaign. 
-      - The search bar is something that is almost always seen on the welcome page of property listings sites such as daft.ie and myhome.ie etc and so it is clear that the intent is to parody such a site. 
-      - In addition to this, the drop down menu contains the message *no, one, is, home*.
+       - The purpose of the site is immediately clear as we are presented with an image that effectively portrays the theme of dereliction and vacant housing in an Irish content. The image is very obviously of an Irish farmhouse left to fall into dereliction. In the social context of the housing emergency, the point being made is clear. 
+       - The text over the hero image further establishes the mission statement of the campaign. 
+       - The search bar is something that is almost always seen on the welcome page of property listings sites such as daft.ie and myhome.ie etc and so it is clear that the intent is to parody such a site. 
+       - In addition to this, the drop down menu contains the message *no, one, is, home*.
 
     3. As a user I want to be able to contact the campaign managers for more information. 
+
       - The campaign managers can be contacted via the email address located underneath the social media links in the footer. 
       - In addition to this, the campaign can be contacted via aforementioned social media links in the footer.
       - Further to this, the form on the about page can also be considered a viable method of contacting the campaing organizers. 
 
     4. As a user I want to be presented with content that interests me.
+
       - The *Listings* section is presented in such a way that the user is met with an interesting and dynamic image that encourages them to move on. 
       - The information is presented in much the same way as a regular property lisitings site which should pique the user's interest. 
       - The stories contained within the property listings boxes contain local information that the user should find intriguing. 
       - When the user navigates to the *About* page, they are presented with a submission form as a call to action that they may be interested in engaging with.
     
     5. As a user I want to know more about the campaign.
+
       - The user is presented with two blocks of text describing the campaign on the *Home* page. 
       - The *About* page also further reiterates the mission statement of the campaing. 
       - In addition to this, the social media links are provided which will give the user further context. 
 
-    6. As a user I want to be able to connect with NOHOME on social media if I so wish.   
-      - The social media links are placed at the bottom of the page, clearly embedded in the footer. The decision was made not to include them in the header until the campaing was further established. It is better UX to include them in the footer if social media is updated less reguarly.
-      - Whichever link they click, it will be open up in a new tab to ensure the user can easily get back to the website.
+    6. As a user I want to be able to connect with NOHOME on social media if I so wish.  
 
-    7. As a user I want to get involved with the campaign & As a user I want to join a mailing list to stay up-to-date with any progress.    
+        - The social media links are placed at the bottom of the page, clearly embedded in the footer. The decision was made not to include them in the header until the campaing was further established. It is better UX to include them in the footer if social media is updated less reguarly.
+        - Whichever link they click, it will be open up in a new tab to ensure the user can easily get back to the website.
+
+    7. As a user I want to get involved with the campaign & As a user I want to join a mailing list to stay up-to-date with any progress.  
+
       - The user is presented with several choices that would satisfy this:
-        a. The user can scroll to the footer and join the campaign's social media or use the email address presented there.
-        b. The user can navigate to the *About* section by using the menu bar or the imbedded button link on the Homepage which will take them to the form where they can submit information and get involved with the campaign. 
+          a. The user can scroll to the footer and join the campaign's social media or use the email address presented there.
+          b. The user can navigate to the *About* section by using the menu bar or the imbedded button link on the Homepage which will take them to the form where they can submit information and get involved with the campaign. 
 
 -   #### Returning Visitor Goals
     1. As a return user I want to see that new vacant property listings content and features are added reguarly. 
+
       - The site is set up in such a way that new property listings would be easily added. 
       - In addition to this, the simple structure allows for the addition of a blog section to be added. 
 
@@ -358,6 +366,7 @@ Mobile:
 ## **To deploy the project**
 
 The site was deployed to GitHub pages. The steps to deploy a site are as follows:
+
 1. It is important to first ensure that you have commited and pushed any recent changes in your gitpod.io workspace, do this first by typing: *git add .* then press *return* in the terminal window, followed by *git commit -m "ADD NOTES HERE"*, press *return* and, finally *git push*. You are now ready to deploy. 
 2. Open GitHub and from the menu on the left, choose your repository. 
 3. In the GitHub repository, navigate to the **Settings** tab on the top right corner. 
@@ -378,11 +387,12 @@ The live link to the Github repository can be found here - https://brionico.gith
 
 ## **To fork the repository on GitHub**
 
-A copy of the GitHub Repository can be made by forking the GitHub account. This copy can be viewed and changes can be made to the copy without affecting the original repository. These are the steps that should be followed to fork the repository (Note that this approach was not utilised by the developer for this project due to an initial lack of understanding/reluctance about embarking on the process);
+A copy of the GitHub Repository can be made by forking the GitHub account. This copy can be viewed and changes can be made to the copy without affecting the original repository. These are the steps that should be followed to fork the repository: 
 
 1. Log in to **GitHub** and locate the [repository](https://github.com/BrioniCo/m_project1).
 2. On the right hand side of the page inline with the repository name is a button called **'Fork'**, click on the button to create a copy of the original repository in your GitHub Account.
 
+ (Note that this approach was not utilised by the developer for this project due to an initial lack of understanding/reluctance about embarking on the process);
 
 ## **To create a local clone of this project**
 This is how you clone a project from GitHub:
@@ -416,6 +426,7 @@ This is how you clone a project from GitHub:
 [Back to top](<#contents>)
 
 # Acknowledgements
+
 The site was completed as a Portfolio 1 Project piece for the Full Stack Software Developer (e-Commerce) Diploma at the [Code Institute](https://codeinstitute.net/). 
 I would like to thank my mentor [Precious Ijege](https://www.linkedin.com/in/precious-ijege-908a00168/) for his help and guidance. I would also like to thank the Code Institute Slack community for all the invaluable information I found there, the tutorial sessions from student help as well as our Cohort Facilitator Alan Bushnell for the very useful weekly stand-up sessions and general insights, support and information.
 
