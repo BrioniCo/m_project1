@@ -318,10 +318,26 @@ Google Chrome, Safari and Mozilla Firefox. Appearance, functionality and respons
 
 * The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
--   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) 
--   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) 
+-   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) test performed. The CSS and markup passed the test.
+Results:
+
+![CSS3 validator pass](documentation/css-validator.png)
+
+- [HTML validator](https://validator.w3.org/) was used to check for HTML syntax issues. The test initially failed due to some stray closing tags and incorrectly entered meta data. This issue was resolved and the test was passed. 
+Results:
+
+![HTML validator pass](documentation/html-validator.png)
+
 -   Responsive design tests were carried out manually with [Google Chrome DevTools](https://developer.chrome.com/docs/devtools/) and [Responsive Design Checker](https://www.responsivedesignchecker.com/).
-#### Lighthouse in Google Development tools:
+
+- Lighthouse was run in incognito mode from Chrome developer tools and the results are as follows:
+Desktop:
+
+![Lighthouse for Desktop](documentation/lighthouse-desktop.png)
+
+Mobile:
+
+![Lighthouse for mobile](documentation/lighthouse-mobile.png)
 
 [Back to top](<#contents>)
 
