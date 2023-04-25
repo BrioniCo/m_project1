@@ -20,19 +20,13 @@ Welcome to the campaign <a href="https://brionico.github.io/m_project1/" target=
 * [**Features**](<#features>)
     * [**Home**](<#navigation-menu>)
          * [Navigation menu](<#navigation-menu>)
+         * [Introduction](<#introduction>)
          * [Listings](<#gallery>)
          * [About](<#about>)
-         * [Form](<#testimonials>)
+         * [Welcome text](<#welcome-text>)
          * [Footer](<#footer>)
-    * [**#**](<#>)
-        * 
-        * 
-        * 
-    * [**#**](<#>)
-       * 
-       * 
-       * 
-    * [**Form Confirmation**](<#form-confirmation>)
+         * [Record form](<#record-form>)
+         * [Thank you](<#thank-you>)
     * [**Future Features**](<#future-features>)
 * [**Technologies Used**](<#technologies-used>)
 * [**Known Bugs**](<#known-bugs>)
@@ -89,15 +83,15 @@ The *here* in *Click here to view the house you'll never have* takes the user to
 
 ## Design Choices
 
- * ### Typography
-      The fonts chosen were 'Roboto for the headings and 'Lato' for the body text. They both have a fall-back of sans-serif set in case the user's browser does not support Google fonts. 
-     *  'Roboto' was chosen for the headings as it has a little more imact than the 'Lato' font.  For this reason it made the headings and the logo stand out and gave them added presence. 
-     * Lato was chosen as it is quite close to the type of font typically seen in property listings sites. It has a casual and welcoming feel. 
-      The two fonts compliment each other well.
+* ### Typography
+* The fonts chosen were 'Roboto for the headings and 'Lato' for the body text. They both have a fall-back of sans-serif set in case the user's browser does not support Google fonts. 
+*  'Roboto' was chosen for the headings as it has a little more imact than the 'Lato' font.  For this reason it made the headings and the logo stand out and gave them added presence. 
+* Lato was chosen as it is quite close to the type of font typically seen in property listings sites. It has a casual and welcoming feel. 
+The two fonts compliment each other well.
  
 
- * ### Colour Scheme
- * The site itself is understated and simple and for this reason, aside from the images, there is an absence of any dominating colour scheme. Instead the site rotates around a subdued palette of white and grey shot with flashes of forest green that pull out and accentuate the greens in the images. 
+* ### Colour Scheme
+* The site itself is understated and simple and for this reason, aside from the images, there is an absence of any dominating colour scheme. Instead the site rotates around a subdued palette of white and grey shot with flashes of forest green that pull out and accentuate the greens in the images. 
 
 The colour used most predominantly throughout the site was a dark green rgb colour *rgb(40, 61, 38)*. It was used with varying degrees of transparency.  This colour was chosen both because of how it brought out the subtle greens in the images as well as how it brings to mind the mossy greens and earthy hues associated with houses that have fallen into dereliction. 
 The green was paired with greys and blacks and sometimes a soft brown-black shade, *#251919*. 
@@ -110,6 +104,7 @@ To avoid the use of additional colours that would compete with the images, a sha
 ![Shadow contrast](documentation/shadow-for-contrast.png)
 
 [Back to top](<#contents>)
+
 # Features
 
 NOHOME.ie is set up to be welcoming and easy to navigate. 
@@ -130,7 +125,7 @@ The overall feel of the website is intended to be hard-hitting and serious but w
 ![Navigation bar](documentation/header.png)
 [Back to top](<#contents>)
 
-  * ### Tag Line/ Introduction
+  * ### Introduction
 
       - Located on the home page over the hero image is text that communicates the mission statement of the campaign. 
      -Beneath the text is a search bar with a drop-down selector that lists the words *no* *one* *is* and *home*. The intention of this is to further enhance the hard-hitting element of the campaign. 
@@ -165,7 +160,7 @@ The overall feel of the website is intended to be hard-hitting and serious but w
 
 [Back to top](<#contents>)
 
-  * ### Welcome to NOHOME.ie
+  * ### Welcome text
 
     * This information section provides further context to the user about the campaign. It details the motivations for its creation as well as the aims and intentions. 
     * The information piece is styled in a simple flex box with a subtle green border. Some icons are included for visual interest. 
@@ -191,7 +186,7 @@ The overall feel of the website is intended to be hard-hitting and serious but w
  * This form is styled in a simple green with text inputs, a text area for an address, radio inputs and a submit button. 
  It allows the user to contribute to the campaign. The aim is for it to become a valuable tool in creating a nationwide vacant home database complete with stories of the history of each home. 
 
-![Record a home form](documentation/form.png)
+![Record a home form](documentation/form-sml.png)
 
 [Back to top](<#contents>)
 
@@ -242,22 +237,27 @@ The overall feel of the website is intended to be hard-hitting and serious but w
 
 ![Large gap underneath Record button](documentation/bug_gap.png)
 
-<!-- INSERT RIGHT IMAGE HERE -->
-![Record a home button in About](documentation/#.png) 
-
 # Resolved Bugs
 
-1. problem I was having with the footer disappearing behind the hero-image section on the home page.-it was a position:absolute issue.
-<!-- explanations needed here -->
-![Button placement issue](documentation/responsive_bug_about_box.png)
-![Record a home button in About](documentation/bug_button.png)
-![Record a home button in About](documentation/#.png)
+1. There was a problem with the footer and above section disappearing behind the hero-image section on the home page.-it was resolved with help from tutor support. It was a position:absolute issue. The hero image was set to position: absolute as was the section.
+
+2. Amiresponsive was showing that the last section on the Homepage was bleeding into the footer. This was caused by double inputs for footer values. It was easily resolved. 
+
+![Am i responsive display](documentation/bug_amiresponsive.png)
+
+![Responsivity of information section](documentation/responsive_bug_about_box.png)
+
+3. The *Record* button on the About page was not centering. The height of the div needed to be changed to 100%. 
+
+![Record a home button in About](documentation/bug_solution_percent.png)
+
+4. Images were not loading in other user's browsers. The paths were wrong. This issue was resolved when a forward slash (/) was dropped from the beginning of the path. 
 
 # Testing
 
 ### Testing User Stories from User Experience (UX) Section
 
--   #### First Time Visitor Goals
+-   #### Visitor Goals
     
     1. As a user I want to be able to navigate seamlessly throughout the site. 
         
@@ -334,7 +334,6 @@ Google Chrome, Safari and Mozilla Firefox. Appearance, functionality and respons
 -   Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
 - The site was examined prior to submission by the class group during a weekly stand-up session and found to be fully responsive.
 
-
 # Deployment
 
 ### **To deploy the project**
@@ -391,6 +390,7 @@ This is how you clone a project from GitHub:
 *  [StackEdit](https://stackedit.io/).
 * [Google Chrome DevTools](https://developer.chrome.com/docs/devtools/)
 * [Responsive Design Checker](https://www.responsivedesignchecker.com/)
+* The readme used as a guiding template was from Ewan Colquhoun for Wawas woods: [Wawas woods](https://github.com/EwanColquhoun/wawaswoods). In addition, instructions on how to fork a repository were quoted from this readme. 
 
 ### Media
 * The photos all came from the developer, [Brioni Connolly].
@@ -398,7 +398,7 @@ This is how you clone a project from GitHub:
 
 # Acknowledgements
 The site was completed as a Portfolio 1 Project piece for the Full Stack Software Developer (e-Commerce) Diploma at the [Code Institute](https://codeinstitute.net/). 
-I would like to thank my mentor [Precious Ijege](https://www.linkedin.com/in/precious-ijege-908a00168/) for his help and guidance. I would also like to thank the Code Institute Slack community for all the invaluable information I found there, the invaluable tutorial sessions from student help as well as our Cohort Facilitator Alan Bushnell for the very useful weekly stand-up sessions and general insights, support and information.
+I would like to thank my mentor [Precious Ijege](https://www.linkedin.com/in/precious-ijege-908a00168/) for his help and guidance. I would also like to thank the Code Institute Slack community for all the invaluable information I found there, the tutorial sessions from student help as well as our Cohort Facilitator Alan Bushnell for the very useful weekly stand-up sessions and general insights, support and information.
 
 In particular I would also like to thank two of my classmates, Carl Murray and Benjamin Riordan who repeatedly took time out of their own studies to help me out with issues I was having. 
 
