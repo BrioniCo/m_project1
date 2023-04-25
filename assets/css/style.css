@@ -276,7 +276,7 @@ img {
   padding: 2%;
 }
 
-/* Property listing boxes */
+/* Property listing boxes- some styling taken from youtube tutorial- see Readme */
 
 .featured .box-container {
   display: flex;

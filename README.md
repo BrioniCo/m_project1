@@ -187,8 +187,8 @@ The overall feel of the website is intended to be hard-hitting and serious but w
 
 
 * ### Record a Vacant Home Form
-    * This form is styled in a simple green with text inputs, a text area for an address, radio inputs and a submit button. 
-    It allows the user to contribute to the campaign. The aim is for it to become a valuable tool in creating a nationwide vacant home database complete with stories of the history of each home. 
+ * This form is styled in a simple green with text inputs, a text area for an address, radio inputs and a submit button. 
+ It allows the user to contribute to the campaign. The aim is for it to become a valuable tool in creating a nationwide vacant home database complete with stories of the history of each home. 
 
 ![Record a home form](documentation/form.png)
 
@@ -198,8 +198,8 @@ The overall feel of the website is intended to be hard-hitting and serious but w
 
 * A future feature that the developer would like to include in the site is an interactive map in which vacant properties can be pinned into locations. It would provide a dramatic visual diagram of how prevalent the issue of vacant and derelict housing is in Ireland. 
 * In the future, it would be valuable to include a blog section as well as a section for video updates, perhaps in the manner of an iframe of the instagram page to contain reels and stories. 
-* Another future feature would be further styling of the button on the homepage as well as the text boxes. 
-* It was outside of the scope of this project but another future feature that would be added is for the search bar to return messages to the user that reinforce the thrust of the campaign. The messages would say things like 
+* Another future feature would be further styling of the button on the homepage as well as the text boxes. Time was the preventative factor here.
+* It was outside of the scope of this project but another future feature that would be added is for the search bar to return messages to the user that reinforce the thrust of the campaign. The search would return messages that wouold reinforce the thrust of the campaign such as:
 "There are no homes available in your area, but plenty of vacant houses, if this makes you angry- join our campaign." etc
 
 [Back to top](<#contents>)
@@ -213,15 +213,27 @@ The overall feel of the website is intended to be hard-hitting and serious but w
 * [Diffchecker](https://www.diffchecker.com/)- used to check for errors in code that was copied and pasted between the pages in the site.
 * [Responsive Design Checker](https://responsivedesignchecker.com/)- used to ensure site was responsive on all devices.
 * [HTML validator](https://validator.w3.org/)- used to check for HTML syntax issues.
-*[CSS3 validator](https://jigsaw.w3.org/css-validator/)- used to check for CSS3 syntax issues.
+* [CSS3 validator](https://jigsaw.w3.org/css-validator/)- used to check for CSS3 syntax issues.
 
 [Back to top](<#contents>)
 
 # Known Bugs
-*problem I was having with the footer disappearing behind the hero-image section on the home page. - this should go in bugs instead as fixed by tutorial-it was a position:absolute issue.
-![Navigation Bar on smaller screen](assets/readme-images/nav-bar-bug.png)
+1. When the site is displayed on the smallest screen sizes, ie screens under circa 450px width, the menu items on the navigation menu are displayed beginning with *About* instead of showing *Home* at the top of the list, which woulld be considered better UX. Time was the preventative factor in amending this issue:
+
+
+![Nav menu order bug](documentation/bug-nav-menu.png)
+
+2. In addition to this, the home icon separates from the NOHOME.ie part of the logo at around 350px and lower widths. This is also not ideal aesthetically. This is something that could also be amended in the future, perhaps by developing a unique logo instead of using Google font in conjunction with fontawesome icons. 
+3. For screen sizes under circa 450px in width, the gap between the *Record* button and the footer is too large. This issue, and the one above, likely could have been avoided if this section was created using flexbox settings. This is how it would be approached in future. 
+
+![Record a home button](documentation/bug_button.png)
+
 # Resolved Bugs
+
+1. problem I was having with the footer disappearing behind the hero-image section on the home page.-it was a position:absolute issue.
+
 ![Button placement issue](assets/readme-images/bug_buton.png)![Button placement issue](assets/responsive_bug_about_box.png)
+
 # Testing
 
 ### Testing User Stories from User Experience (UX) Section
@@ -230,39 +242,39 @@ The overall feel of the website is intended to be hard-hitting and serious but w
     
     1. As a user I want to be able to navigate seamlessly throughout the site. 
         
-        1.  Upon entering the site, users are automatically greeted with a clean and easily readable navigation bar to go to the page of their choice. Underneath there is a Hero Image with Text that contains an embedded link and a "Search Properties" Call to action button.
-        2.  The user has three options, navigate to the *Listings* or *About* sections using the menu on the navigation bar, click on the embedded link in the hero image text that will bring them to the *Listings* page, or scroll down to understand the campaign more and click on the button link that will bring them to the form on the *About* page. 
-        3.  The site has been designed to be fluid and never to entrap the user. At the top of each page there is a clean navigation bar, each link describes what the page they will end up at clearly.
+    1.  Upon entering the site, users are automatically greeted with a clean and easily readable navigation bar to go to the page of their choice. Underneath there is a Hero Image with Text that contains an embedded link and a "Search Properties" Call to action button.
+    2.  The user has three options, navigate to the *Listings* or *About* sections using the menu on the navigation bar,click on the embedded link in the hero image text that will bring them to the *Listings* page, or scroll down to understand the campaign more and click on the button link that will bring them to the form on the *About* page. 
+    3.  The site has been designed to be fluid and never to entrap the user. At the top of each page there is a clean navigation bar, each link describes what the page they will end up at clearly.
 
     2. As a user I want to understand what the purpose of the site is as soon as I load it. 
     
-        1. The purpose of the site is immediately clear as we are presented with an image that effectively portrays the theme of dereliction and vacant housing in an Irish content. The image is very obviously of an Irish farmhouse left to fall into dereliction. In the social context of the housing emergency, the point being made is clear. 
-        2. The text over the hero image further establishes the mission statement of the campaign. 
-        3. The search bar is something that is almost always seen on the welcome page of property listings sites such as daft.ie and myhome.ie etc and so it is clear that the intent is to parody such a site. 
-        4. In addition to this, the drop down menu contains the message *no, one, is, home*.
+    1. The purpose of the site is immediately clear as we are presented with an image that effectively portrays the theme of dereliction and vacant housing in an Irish content. The image is very obviously of an Irish farmhouse left to fall into dereliction. In the social context of the housing emergency, the point being made is clear. 
+    2. The text over the hero image further establishes the mission statement of the campaign. 
+    3. The search bar is something that is almost always seen on the welcome page of property listings sites such as daft.ie and myhome.ie etc and so it is clear that the intent is to parody such a site. 
+    4. In addition to this, the drop down menu contains the message *no, one, is, home*.
 
     3. As a user I want to be able to contact the campaign managers for more information. 
-        1. The campaign managers can be contacted via the email address located underneath the social media links in the footer. 
-        2. In addition to this, the campaign can be contacted via aforementioned social media links in the footer.
-        3. Further to this, the form on the about page can also be considered a viable method of contacting the campaing organizers. 
+    1. The campaign managers can be contacted via the email address located underneath the social media links in the footer. 
+    2. In addition to this, the campaign can be contacted via aforementioned social media links in the footer.
+    3. Further to this, the form on the about page can also be considered a viable method of contacting the campaing organizers. 
 
     4. As a user I want to be presented with content that interests me.
-        1. The *Listings* section is presented in such a way that the user is met with an interesting and dynamic image that encourages them to move on. 
-        2. The information is presented in much the same way as a regular property lisitings site which should pique the user's interest. 
-        3. The stories contained within the property listings boxes contain local information that the user should find intriguing. 
-        4. When the user navigates to the *About* page, they are presented with a submission form as a call to action that they may be interested in engaging with.
+    1. The *Listings* section is presented in such a way that the user is met with an interesting and dynamic image that encourages them to move on. 
+    2. The information is presented in much the same way as a regular property lisitings site which should pique the user's interest. 
+    3. The stories contained within the property listings boxes contain local information that the user should find intriguing. 
+    4. When the user navigates to the *About* page, they are presented with a submission form as a call to action that they may be interested in engaging with.
     
     5. As a user I want to know more about the campaign.
-        1. The user is presented with two blocks of text describing the campaign on the *Home* page. 
-        2. The *About* page also further reiterates the mission statement of the campaing. 
-        3. In addition to this, the social media links are provided which will give the user further context. 
+    1. The user is presented with two blocks of text describing the campaign on the *Home* page. 
+    2. The *About* page also further reiterates the mission statement of the campaing. 
+    3. In addition to this, the social media links are provided which will give the user further context. 
 
     6. As a user I want to be able to connect with NOHOME on social media if I so wish.   
-        1. The social media links are placed at the bottom of the page, clearly embedded in the footer. The decision was made not to include them in the header until the campaing was further established. It is better UX to include them in the footer if social media is updated less reguarly.
-        2.  Whichever link they click, it will be open up in a new tab to ensure the user can easily get back to the website.
+    1. The social media links are placed at the bottom of the page, clearly embedded in the footer. The decision was made not to include them in the header until the campaing was further established. It is better UX to include them in the footer if social media is updated less reguarly.
+    2.  Whichever link they click, it will be open up in a new tab to ensure the user can easily get back to the website.
 
     7. As a user I want to get involved with the campaign & As a user I want to join a mailing list to stay up-to-date with any progress.    
-        1. The user is presented with several choices that would satisfy this:
+    1. The user is presented with several choices that would satisfy this:
         a. The user can scroll to the footer and join the campaign's social media.
         b. The user can scroll to the footer and use the email address presented there.
         c. The user can navigate to the *About* section by using the menu bar or the imbedded button link on the Homepage which will take them to the form where they can submit information and get involved with the campaign. 
@@ -270,8 +282,8 @@ The overall feel of the website is intended to be hard-hitting and serious but w
     8. 
 -   #### Returning Visitor Goals
     1.  As a return user I want to see that new property lisings content and features are added reguarly. 
-        1. The site is set up in such a way that new property listings would be easily added. 
-        2. In addition to this, the simple structure allows for the addition of a blog section to be added. 
+    1. The site is set up in such a way that new property listings would be easily added. 
+    2. In addition to this, the simple structure allows for the addition of a blog section to be added. 
     
 
 Please refer to [**_here_**](TESTING.md) for more information on testing NOHOME.ie.
@@ -285,8 +297,9 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 [Back to top](<#contents>)
 ### Further Testing
 
--   The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
--   The website was viewed on a variety of devices such as Desktop, Laptop, iPhone13, __ & iPhone.
+- The deployed site was shared to the Slack channel for peer review. The only issue commented on was the known bug detailed in *Known bugs* #1. 
+-   The Website was tested on Google Chrome, Internet Explorer and Safari browsers.
+-   The website was viewed on a variety of devices such as Desktop, Laptop, iPhone13, Redmi 8.
 -   A large amount of testing was done to ensure that all pages were linking correctly.
 -   Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
 
