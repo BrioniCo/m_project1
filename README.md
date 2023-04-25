@@ -27,10 +27,10 @@ Welcome to the campaign <a href="https://brionico.github.io/m_project1/" target=
         * Elm
         * Oak
         * Elm
-    * [**Contact Us**](<#contact-us>)
-       * Contact details
-       * Location map
-       * Design Query form
+    * [**#**](<#>)
+       * 
+       * 
+       * 
     * [**Form Confirmation**](<#form-confirmation>)
     * [**Future Features**](<#future-features>)
 * [**Technologies Used**](<#technologies-used>)
@@ -225,14 +225,16 @@ The overall feel of the website is intended to be hard-hitting and serious but w
 
 2. In addition to this, the home icon separates from the NOHOME.ie part of the logo at around 350px and lower widths. This is also not ideal aesthetically. This is something that could also be amended in the future, perhaps by developing a unique logo instead of using Google font in conjunction with fontawesome icons. 
 3. For screen sizes under circa 450px in width, the gap between the *Record* button and the footer is too large. This issue, and the one above, likely could have been avoided if this section was created using flexbox settings. This is how it would be approached in future. 
-
-![Record a home button](documentation/bug_button.png)
+<!-- INSERT RIGHT IMAGE HERE -->
+![Record a home button in About](documentation/#.png) 
 
 # Resolved Bugs
 
 1. problem I was having with the footer disappearing behind the hero-image section on the home page.-it was a position:absolute issue.
-
-![Button placement issue](assets/readme-images/bug_buton.png)![Button placement issue](assets/responsive_bug_about_box.png)
+<!-- explanations needed here -->
+![Button placement issue](documentation/responsive_bug_about_box.png)
+![Record a home button in About](documentation/bug_button.png)
+![Record a home button in About](documentation/#.png)
 
 # Testing
 
@@ -275,39 +277,37 @@ The overall feel of the website is intended to be hard-hitting and serious but w
 
     7. As a user I want to get involved with the campaign & As a user I want to join a mailing list to stay up-to-date with any progress.    
     1. The user is presented with several choices that would satisfy this:
-        a. The user can scroll to the footer and join the campaign's social media.
-        b. The user can scroll to the footer and use the email address presented there.
-        c. The user can navigate to the *About* section by using the menu bar or the imbedded button link on the Homepage which will take them to the form where they can submit information and get involved with the campaign. 
+        a. The user can scroll to the footer and join the campaign's social media or use the email address presented there.
+        b. The user can navigate to the *About* section by using the menu bar or the imbedded button link on the Homepage which will take them to the form where they can submit information and get involved with the campaign. 
 
-    8. 
 -   #### Returning Visitor Goals
-    1.  As a return user I want to see that new property lisings content and features are added reguarly. 
-    1. The site is set up in such a way that new property listings would be easily added. 
-    2. In addition to this, the simple structure allows for the addition of a blog section to be added. 
-    
+    1. As a return user I want to see that new property lisings content and features are added reguarly. 
+    - The site is set up in such a way that new property listings would be easily added. 
+    - In addition to this, the simple structure allows for the addition of a blog section to be added. 
 
-|        | Moto G4 | Galaxy S5 | iPhone 5 | iPad | iPad Pro | Display <1200px | Display >1200px |
+## Browser Compatibility  
+
+NOHOME.ie was tested on the following browsers with no visible issues for the user. 
+Google Chrome, Safari and Mozilla Firefox. Appearance, functionality and responsiveness were consistent throughout a range of device sizes and browsers. 
+
+### Further device testing
+
+|        | iphone 13 | Redmi 8 | iPhone SE | iPad |Kindle Fire HDX | Display <1200px | Display >1200px |
 |--------|---------|-----------|----------|------|----------|-----------------|-----------------|
 | Render | pass    | pass      | pass     | pass | pass     | pass            | pass            |
 | Images | pass    | pass      | pass     | pass | pass     | pass            | pass            |
 | Links  | pass    | pass      | pass     | pass | pass     | pass            | pass            |
 
-Note: On wide display types the contents of the site are restricted in width to 2000px. This helps the UX by not spreading the content too wide on the extra wide screens.
 
-## Browser Compatibility
+* The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
-Wawas Woods site was tested on the following browsers with no visible issues for the user. 
-Google Chrome, Microsoft Edge, Safari and Mozilla Firefox. Appearance, functionality and responsiveness were consistent throughout for a range of device sizes and browsers.
-
-## Testing User Stories
-
-The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
-
--   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
--   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
+-   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) 
+-   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) 
 -   Responsive design tests were carried out manually with [Google Chrome DevTools](https://developer.chrome.com/docs/devtools/) and [Responsive Design Checker](https://www.responsivedesignchecker.com/).
+#### Lighthouse in Google Development tools:
 
 [Back to top](<#contents>)
+
 ### Further Testing
 
 - The deployed site was shared to the Slack channel for peer review. The only issue commented on was the known bug detailed in *Known bugs* #1. 
@@ -315,20 +315,27 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 -   The website was viewed on a variety of devices such as Desktop, Laptop, iPhone13, Redmi 8.
 -   A large amount of testing was done to ensure that all pages were linking correctly.
 -   Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
+- The site was examined prior to submission by the class group during a weekly stand-up session and found to be fully responsive.
+
 
 # Deployment
 
 ### **To deploy the project**
+
 The site was deployed to GitHub pages. The steps to deploy a site are as follows:
 1. It is important to first ensure that you have commited and pushed any recent changes in your gitpod.io workspace, do this first by typing: *git add .* then press *return* in the terminal window, followed by *git commit -m "ADD NOTES HERE"*, press *return* and, finally *git push*. You are now ready to deploy. 
 2. Open GitHub and from the menu on the left, choose your repository. 
 3. In the GitHub repository, navigate to the **Settings** tab on the top right corner. 
 
-![Settings Tab](assets/readme-images/settings.png)4. Once in Settings, navigate to the **Pages** tab on the left hand side.
+![Settings Tab](documentation/settings.png)
+
+4. Once in Settings, navigate to the **Pages** tab on the left hand side.
 
 5. Scroll to **Source**, select the branch **main**, then click save. 
 
-![GitHub deployed image](assets/readme-images/deployment-instructions.png)6. The page should refresh. You may need to manually refresh a few times. As you can see from the image above, your deployed site address should display across a ribbon display. 
+![Github deployed image](documentation/deployment-instructions.png)
+
+6. The page should refresh. You may need to manually refresh a few times. As you can see from the image above, your deployed site address should display across a ribbon display. 
 
 **Note**: For my first deployment, I needed to choose a Jekyll theme in order to have my site deployed. Github has instructions for this eventuality : [GitHub](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/adding-a-theme-to-your-github-pages-site-using-jekyll)
  
@@ -340,18 +347,17 @@ A copy of the GitHub Repository can be made by forking the GitHub account. This 
 
 1. Log in to **GitHub** and locate the [repository](https://github.com/BrioniCo/m_project1).
 2. On the right hand side of the page inline with the repository name is a button called **'Fork'**, click on the button to create a copy of the original repository in your GitHub Account.
-![GitHub forking process image](assets/readme-images/forking.png)
+
 
 ### **To create a local clone of this project**
 This is how you clone a project from GitHub:
 
 1. Under the repository’s name, click on the **code** tab.
 2. In the **HTTPS** section, under **local** click on the two squares icon to copy the given URL or else use *right-click_copy* or *command* + *C* for Mac, or *Ctrl* + *C* for PC. 
-![Cloning image](assets/readme-images/clone.png)
+
 3. Open your terminal in the work space you would like the repository cloned to. 
 4. Type **git clone** and then paste the URL you have copied from GitHub.
 5. Press *enter* and the local clone will have been created. 
-![Cloning in terminal](assets/readme-images/clone_terminal.png)
 
 [Back to top](<#contents>)
 
@@ -374,7 +380,9 @@ This is how you clone a project from GitHub:
 [Back to top](<#contents>)
 
 # Acknowledgements
-The site was completed as a Portfolio 1 Project piece for the Full Stack Software Developer (e-Commerce) Diploma at the [Code Institute](https://codeinstitute.net/). As such I would like to thank my mentor [Precious Ijege](https://www.linkedin.com/in/precious-ijege-908a00168/) for his help and guidance. I would also like to thank the Code Institute Slack community for all the invaluable information I found there as well as our Cohort Facilitator Alan Bushnell for the very useful weekly stand-up sessions and general insights, support and information.
+The site was completed as a Portfolio 1 Project piece for the Full Stack Software Developer (e-Commerce) Diploma at the [Code Institute](https://codeinstitute.net/). 
+I would like to thank my mentor [Precious Ijege](https://www.linkedin.com/in/precious-ijege-908a00168/) for his help and guidance. I would also like to thank the Code Institute Slack community for all the invaluable information I found there, the invaluable tutorial sessions from student help as well as our Cohort Facilitator Alan Bushnell for the very useful weekly stand-up sessions and general insights, support and information.
+
 In particular I would also like to thank two of my classmates, Carl Murray and Benjamin Riordan who repeatedly took time out of their own studies to help me out with issues I was having. 
 
 At present, NOHOME.ie is a fictional campaign that may be launched some day. The domain name has been purchased just in case!
