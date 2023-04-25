@@ -286,13 +286,26 @@ The overall feel of the website is intended to be hard-hitting and serious but w
     2. In addition to this, the simple structure allows for the addition of a blog section to be added. 
     
 
-Please refer to [**_here_**](TESTING.md) for more information on testing NOHOME.ie.
+|        | Moto G4 | Galaxy S5 | iPhone 5 | iPad | iPad Pro | Display <1200px | Display >1200px |
+|--------|---------|-----------|----------|------|----------|-----------------|-----------------|
+| Render | pass    | pass      | pass     | pass | pass     | pass            | pass            |
+| Images | pass    | pass      | pass     | pass | pass     | pass            | pass            |
+| Links  | pass    | pass      | pass     | pass | pass     | pass            | pass            |
+
+Note: On wide display types the contents of the site are restricted in width to 2000px. This helps the UX by not spreading the content too wide on the extra wide screens.
+
+## Browser Compatibility
+
+Wawas Woods site was tested on the following browsers with no visible issues for the user. 
+Google Chrome, Microsoft Edge, Safari and Mozilla Firefox. Appearance, functionality and responsiveness were consistent throughout for a range of device sizes and browsers.
+
+## Testing User Stories
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
 -   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
 -   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
-
+-   Responsive design tests were carried out manually with [Google Chrome DevTools](https://developer.chrome.com/docs/devtools/) and [Responsive Design Checker](https://www.responsivedesignchecker.com/).
 
 [Back to top](<#contents>)
 ### Further Testing
@@ -307,20 +320,25 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 ### **To deploy the project**
 The site was deployed to GitHub pages. The steps to deploy a site are as follows:
-  1.It is important to first ensure that you have commited and pushed any recent changes in your gitpod.io workspace, do this first by typing: *git add .* then press *return* in the terminal window, followed by *git commit -m "ADD NOTES HERE"*, press *return* and, finally *git push*. You are now ready to deploy. 
-  2. Open GitHub and from the menu on the left, choose your repository. 
-  3. In the GitHub repository, navigate to the **Settings** tab on the top right corner. 
+1. It is important to first ensure that you have commited and pushed any recent changes in your gitpod.io workspace, do this first by typing: *git add .* then press *return* in the terminal window, followed by *git commit -m "ADD NOTES HERE"*, press *return* and, finally *git push*. You are now ready to deploy. 
+2. Open GitHub and from the menu on the left, choose your repository. 
+3. In the GitHub repository, navigate to the **Settings** tab on the top right corner. 
+
 ![Settings Tab](assets/readme-images/settings.png)4. Once in Settings, navigate to the **Pages** tab on the left hand side.
+
 5. Scroll to **Source**, select the branch **main**, then click save. 
+
 ![GitHub deployed image](assets/readme-images/deployment-instructions.png)6. The page should refresh. You may need to manually refresh a few times. As you can see from the image above, your deployed site address should display across a ribbon display. 
 
 **Note**: For my first deployment, I needed to choose a Jekyll theme in order to have my site deployed. Github has instructions for this eventuality : [GitHub](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/adding-a-theme-to-your-github-pages-site-using-jekyll)
  
-  The live link to the Github repository can be found here - https://brionico.github.io/m_project1/
+The live link to the Github repository can be found here - https://brionico.github.io/m_project1/
 
 ### **To fork the repository on GitHub**
-A copy of the GitHub Repository can be made by forking the GitHub account. This copy can be viewed and changes can be made to the copy without affecting the original repository. Take the following steps to fork the repository;
-1. Log in to **GitHub** and locate the [repository](https://github.com/EwanColquhoun/wawaswoods).
+
+A copy of the GitHub Repository can be made by forking the GitHub account. This copy can be viewed and changes can be made to the copy without affecting the original repository. These are the steps that should be followed to fork the repository (Note that this approach was not utilised by the developer for this project due to an initial lack of understanding/reluctance about embarking on the process);
+
+1. Log in to **GitHub** and locate the [repository](https://github.com/BrioniCo/m_project1).
 2. On the right hand side of the page inline with the repository name is a button called **'Fork'**, click on the button to create a copy of the original repository in your GitHub Account.
 ![GitHub forking process image](assets/readme-images/forking.png)
 
@@ -348,6 +366,8 @@ This is how you clone a project from GitHub:
 * The search bar on the main page came from this [Page Dart](https://pagedart.com/blog/how-to-add-a-search-bar-in-html/)
 * Much of the coding for the property-listings boxes came from this [YouTube tutorial](https://www.youtube.com/watch?v=khLaYtW5N4s)
 *  [StackEdit](https://stackedit.io/).
+* [Google Chrome DevTools](https://developer.chrome.com/docs/devtools/)
+* [Responsive Design Checker](https://www.responsivedesignchecker.com/)
 
 ### Media
 * The photos all came from the developer, [Brioni Connolly].
