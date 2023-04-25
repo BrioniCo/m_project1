@@ -224,6 +224,7 @@ The overall feel of the website is intended to be hard-hitting and serious but w
 * [Responsive Design Checker](https://responsivedesignchecker.com/)- used to ensure site was responsive on all devices.
 * [HTML validator](https://validator.w3.org/)- used to check for HTML syntax issues.
 * [CSS3 validator](https://jigsaw.w3.org/css-validator/)- used to check for CSS3 syntax issues.
+* [Google Chrome DevTools](https://developer.chrome.com/docs/devtools/) was used manually as well as to engage an audit using lighthouse. 
 
 [Back to top](<#contents>)
 
@@ -261,46 +262,46 @@ The overall feel of the website is intended to be hard-hitting and serious but w
     
     1. As a user I want to be able to navigate seamlessly throughout the site. 
         
-    1.  Upon entering the site, users are automatically greeted with a clean and easily readable navigation bar to go to the page of their choice. Underneath there is a Hero Image with Text that contains an embedded link and a "Search Properties" Call to action button.
-    2.  The user has three options, navigate to the *Listings* or *About* sections using the menu on the navigation bar,click on the embedded link in the hero image text that will bring them to the *Listings* page, or scroll down to understand the campaign more and click on the button link that will bring them to the form on the *About* page. 
-    3.  The site has been designed to be fluid and never to entrap the user. At the top of each page there is a clean navigation bar, each link describes what the page they will end up at clearly.
+      -  Upon entering the site, users are automatically greeted with a clean and easily readable navigation bar to go to the page of their choice. Underneath there is a Hero Image with Text that contains an embedded link and a "Search Properties" Call to action button.
+      - The user has three options, navigate to the *Listings* or *About* sections using the menu on the navigation bar,click on the embedded link in the hero image text that will bring them to the *Listings* page, or scroll down to understand the campaign more and click on the button link that will bring them to the form on the *About* page. 
+      - The site has been designed to be fluid and never to entrap the user. At the top of each page there is a clean navigation bar, each link describes what the page they will end up at clearly.
 
     2. As a user I want to understand what the purpose of the site is as soon as I load it. 
     
-    1. The purpose of the site is immediately clear as we are presented with an image that effectively portrays the theme of dereliction and vacant housing in an Irish content. The image is very obviously of an Irish farmhouse left to fall into dereliction. In the social context of the housing emergency, the point being made is clear. 
-    2. The text over the hero image further establishes the mission statement of the campaign. 
-    3. The search bar is something that is almost always seen on the welcome page of property listings sites such as daft.ie and myhome.ie etc and so it is clear that the intent is to parody such a site. 
-    4. In addition to this, the drop down menu contains the message *no, one, is, home*.
+      - The purpose of the site is immediately clear as we are presented with an image that effectively portrays the theme of dereliction and vacant housing in an Irish content. The image is very obviously of an Irish farmhouse left to fall into dereliction. In the social context of the housing emergency, the point being made is clear. 
+      - The text over the hero image further establishes the mission statement of the campaign. 
+      - The search bar is something that is almost always seen on the welcome page of property listings sites such as daft.ie and myhome.ie etc and so it is clear that the intent is to parody such a site. 
+      - In addition to this, the drop down menu contains the message *no, one, is, home*.
 
     3. As a user I want to be able to contact the campaign managers for more information. 
-    1. The campaign managers can be contacted via the email address located underneath the social media links in the footer. 
-    2. In addition to this, the campaign can be contacted via aforementioned social media links in the footer.
-    3. Further to this, the form on the about page can also be considered a viable method of contacting the campaing organizers. 
+      - The campaign managers can be contacted via the email address located underneath the social media links in the footer. 
+      - In addition to this, the campaign can be contacted via aforementioned social media links in the footer.
+      - Further to this, the form on the about page can also be considered a viable method of contacting the campaing organizers. 
 
     4. As a user I want to be presented with content that interests me.
-    1. The *Listings* section is presented in such a way that the user is met with an interesting and dynamic image that encourages them to move on. 
-    2. The information is presented in much the same way as a regular property lisitings site which should pique the user's interest. 
-    3. The stories contained within the property listings boxes contain local information that the user should find intriguing. 
-    4. When the user navigates to the *About* page, they are presented with a submission form as a call to action that they may be interested in engaging with.
+      - The *Listings* section is presented in such a way that the user is met with an interesting and dynamic image that encourages them to move on. 
+      - The information is presented in much the same way as a regular property lisitings site which should pique the user's interest. 
+      - The stories contained within the property listings boxes contain local information that the user should find intriguing. 
+      - When the user navigates to the *About* page, they are presented with a submission form as a call to action that they may be interested in engaging with.
     
     5. As a user I want to know more about the campaign.
-    1. The user is presented with two blocks of text describing the campaign on the *Home* page. 
-    2. The *About* page also further reiterates the mission statement of the campaing. 
-    3. In addition to this, the social media links are provided which will give the user further context. 
+      - The user is presented with two blocks of text describing the campaign on the *Home* page. 
+      - The *About* page also further reiterates the mission statement of the campaing. 
+      - In addition to this, the social media links are provided which will give the user further context. 
 
     6. As a user I want to be able to connect with NOHOME on social media if I so wish.   
-    1. The social media links are placed at the bottom of the page, clearly embedded in the footer. The decision was made not to include them in the header until the campaing was further established. It is better UX to include them in the footer if social media is updated less reguarly.
-    2.  Whichever link they click, it will be open up in a new tab to ensure the user can easily get back to the website.
+      - The social media links are placed at the bottom of the page, clearly embedded in the footer. The decision was made not to include them in the header until the campaing was further established. It is better UX to include them in the footer if social media is updated less reguarly.
+      - Whichever link they click, it will be open up in a new tab to ensure the user can easily get back to the website.
 
     7. As a user I want to get involved with the campaign & As a user I want to join a mailing list to stay up-to-date with any progress.    
-    1. The user is presented with several choices that would satisfy this:
+      - The user is presented with several choices that would satisfy this:
         a. The user can scroll to the footer and join the campaign's social media or use the email address presented there.
         b. The user can navigate to the *About* section by using the menu bar or the imbedded button link on the Homepage which will take them to the form where they can submit information and get involved with the campaign. 
 
 -   #### Returning Visitor Goals
-    1. As a return user I want to see that new property lisings content and features are added reguarly. 
-    - The site is set up in such a way that new property listings would be easily added. 
-    - In addition to this, the simple structure allows for the addition of a blog section to be added. 
+    1. As a return user I want to see that new vacant property listings content and features are added reguarly. 
+      - The site is set up in such a way that new property listings would be easily added. 
+      - In addition to this, the simple structure allows for the addition of a blog section to be added. 
 
 ## Browser Compatibility  
 
@@ -316,7 +317,6 @@ Google Chrome, Safari and Mozilla Firefox. Appearance, functionality and respons
 | Links  | pass    | pass      | pass     | pass | pass     | pass            | pass            |
 
 
-* The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
 -   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) test performed. The CSS and markup passed the test.
 Results:
@@ -333,9 +333,11 @@ Results:
 - Lighthouse was run in incognito mode from Chrome developer tools and the results are as follows:
 Desktop:
 
+
 ![Lighthouse for Desktop](documentation/lighthouse-desktop.png)
 
 Mobile:
+
 
 ![Lighthouse for mobile](documentation/lighthouse-mobile.png)
 
@@ -350,9 +352,10 @@ Mobile:
 -   Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
 - The site was examined prior to submission by the class group during a weekly stand-up session and found to be fully responsive.
 
+
 # Deployment
 
-### **To deploy the project**
+## **To deploy the project**
 
 The site was deployed to GitHub pages. The steps to deploy a site are as follows:
 1. It is important to first ensure that you have commited and pushed any recent changes in your gitpod.io workspace, do this first by typing: *git add .* then press *return* in the terminal window, followed by *git commit -m "ADD NOTES HERE"*, press *return* and, finally *git push*. You are now ready to deploy. 
@@ -373,7 +376,7 @@ The site was deployed to GitHub pages. The steps to deploy a site are as follows
  
 The live link to the Github repository can be found here - https://brionico.github.io/m_project1/
 
-### **To fork the repository on GitHub**
+## **To fork the repository on GitHub**
 
 A copy of the GitHub Repository can be made by forking the GitHub account. This copy can be viewed and changes can be made to the copy without affecting the original repository. These are the steps that should be followed to fork the repository (Note that this approach was not utilised by the developer for this project due to an initial lack of understanding/reluctance about embarking on the process);
 
@@ -381,7 +384,7 @@ A copy of the GitHub Repository can be made by forking the GitHub account. This 
 2. On the right hand side of the page inline with the repository name is a button called **'Fork'**, click on the button to create a copy of the original repository in your GitHub Account.
 
 
-### **To create a local clone of this project**
+## **To create a local clone of this project**
 This is how you clone a project from GitHub:
 
 1. Under the repository’s name, click on the **code** tab.
