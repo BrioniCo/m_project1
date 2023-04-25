@@ -195,11 +195,25 @@ The overall feel of the website is intended to be hard-hitting and serious but w
 
 [Back to top](<#contents>)
 
+* ### Thank You/Form Redirection
+
+ - When the form is submitted, the user is taken to a simple html page that states simply Thank you for your submission! 
+
+![Thank you form redirection](documentation/submission-thanks.png)
+
+ - There is an embedded link beneath this message through which the user can navigate back to *Home*.
+ - The link to this thank you page is set as target=_blank so that the thank you page opens in another tab. 
+
+![Search bar](documentation/home-page_sml.png)
+
+[Back to top](<#contents>)
+
 ## Future Features 
 
 * A future feature that the developer would like to include in the site is an interactive map in which vacant properties can be pinned into locations. It would provide a dramatic visual diagram of how prevalent the issue of vacant and derelict housing is in Ireland. 
 * In the future, it would be valuable to include a blog section as well as a section for video updates, perhaps in the manner of an iframe of the instagram page to contain reels and stories. 
 * Another future feature would be further styling of the button on the homepage as well as the text boxes. Time was the preventative factor here.
+* If there was more time, more styling would be added to the thank-you page after submission. 
 * It was outside of the scope of this project but another future feature that would be added is for the search bar to return messages to the user that reinforce the thrust of the campaign. The search would return messages that wouold reinforce the thrust of the campaign such as:
 "There are no homes available in your area, but plenty of vacant houses, if this makes you angry- join our campaign." etc
 
@@ -221,11 +235,13 @@ The overall feel of the website is intended to be hard-hitting and serious but w
 # Known Bugs
 1. When the site is displayed on the smallest screen sizes, ie screens under circa 450px width, the menu items on the navigation menu are displayed beginning with *About* instead of showing *Home* at the top of the list, which woulld be considered better UX. Time was the preventative factor in amending this issue:
 
-
 ![Nav menu order bug](documentation/bug-nav-menu.png)
 
 2. In addition to this, the home icon separates from the NOHOME.ie part of the logo at around 350px and lower widths. This is also not ideal aesthetically. This is something that could also be amended in the future, perhaps by developing a unique logo instead of using Google font in conjunction with fontawesome icons. 
 3. For screen sizes under circa 450px in width, the gap between the *Record* button and the footer is too large. This issue, and the one above, likely could have been avoided if this section was created using flexbox settings. This is how it would be approached in future. 
+
+![Large gap underneath Record button](documentation/bug_gap.png)
+
 <!-- INSERT RIGHT IMAGE HERE -->
 ![Record a home button in About](documentation/#.png) 
 
