@@ -1,12 +1,13 @@
 # **_NOHOME.ie_**
 
-NOHOME.ie is a parody property-listings site set up to create further awareness of the issue of vacant housing in Ireland. The title echos another popular property listings site in Ireland, *myhome.ie. The listings on the site include vacant and derelict properties on the island of Cape Clear with scope to expand nationwide. 
+NOHOME.ie is a simple parody property-listings site set up to create further awareness of the issue of vacant housing in Ireland. The title echos another popular property listings site in Ireland, *myhome.ie. The listings on the site include vacant and derelict properties on the island of Cape Clear with scope to expand nationwide. 
  The site is part of a campaign/mission to document as many vacant and derelict houses in Ireland. It is the hope that this may encourage the owners of these properties to put them back into use. 
  The site is aimed at anyone with an interest in the housing crisis in Ireland, a pressing topic at present. 
 
 Welcome to the campaign <a href="https://brionico.github.io/m_project1/" target="_blank" rel="noopener">NOHOME.ie</a>
 
-![NOHOME.ie amiresponsive image](documentation/amiresponsive.png)![plot](./directory_1/directory_2/.../directory_n/amiresponsive.png)
+![NOHOME.ie amiresponsive image](documentation/amiresponsive.png)
+
 # Contents
 
 * [**User Experience UX**](<#user-experience-ux>)
@@ -23,10 +24,10 @@ Welcome to the campaign <a href="https://brionico.github.io/m_project1/" target=
          * [About](<#about>)
          * [Form](<#testimonials>)
          * [Footer](<#footer>)
-    * [**Inspiration**](<#inspiration>)
-        * Elm
-        * Oak
-        * Elm
+    * [**#**](<#>)
+        * 
+        * 
+        * 
     * [**#**](<#>)
        * 
        * 
@@ -73,7 +74,7 @@ Please note that the final site varies slightly from the wireframes. As the lear
 
 ## Site Structure
 
-NOHOME.ie website has three pages. The [home page](index.html) is the default loading page, the [listings](listings.html) and [about](about.html) pages are all accessible primarily from the navigation menu. 
+NOHOME.ie website has three pages. The [Home page](index.html) is the default loading page, the [Listings](listings.html) and [About](about.html) pages are all accessible primarily from the navigation menu. 
 The *Record* button on the homepage also takes you to the form on the *About* page. 
 
 ![Record button link to About](documentation/home-record-button.png)
